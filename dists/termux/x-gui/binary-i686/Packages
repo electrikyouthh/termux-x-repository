@@ -12,15 +12,15 @@ SHA256: a3545d58a43b42cd20565cda140a706bf017a66a64dbdae5a650ed3c4f4e7e28
 
 Package: feh
 Architecture: i686
-Installed-Size: 316
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.22.2
+Installed-Size: 340
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.22.2-2
 Description: Fast and light imlib2-based image viewer
 Homepage: https://feh.finalrewind.org/
 Depends: imlib2, libcurl, libexif, libxinerama, libxt
-Filename: dists/termux/x-gui/binary-i686/feh_2.22.2_i686.deb
-Size: 123780
-SHA256: fc65aa55c7b1563274f30b818a0b30b59ed8eecfcdd5edaf2530abd4363e90fe
+Filename: dists/termux/x-gui/binary-i686/feh_2.22.2-2_i686.deb
+Size: 129312
+SHA256: 88757c974daa0998709a5aa8bbf9ee153429396ad7a72e3a9fa268222b553a4f
 
 Package: fltk-dev
 Architecture: i686
