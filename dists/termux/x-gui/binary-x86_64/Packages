@@ -766,6 +766,21 @@ Filename: dists/termux/x-gui/binary-x86_64/luit_1.1.1-1_x86_64.deb
 Size: 17332
 SHA256: 7dcef2d836406df63a234be6a2343125ae7b2864b743ef04602f4e8fbd6a15cb
 
+Package: ndk-sysroot-x
+Architecture: x86_64
+Installed-Size: 15084
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 16-8
+Description: System header and library files from the Android NDK needed for compiling C programs
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: libandroid-support-dev
+Conflicts: libutil-dev, ndk-sysroot, libgcc
+Replaces: libutil-dev, ndk-sysroot, libgcc
+Provides: libutil-dev, ndk-sysroot, libgcc
+Filename: dists/termux/x-gui/binary-x86_64/ndk-sysroot-x_16-8_x86_64.deb
+Size: 2881548
+SHA256: 93ae1e7a12949f73746d9c9a5162b408fc30f2736f561c3be0f80381b53ab9d1
+
 Package: openbox-dev
 Architecture: x86_64
 Installed-Size: 116

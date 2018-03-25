@@ -959,6 +959,21 @@ Filename: dists/termux/x-gui/binary-arm/ndk-sysroot-x_16-5_arm.deb
 Size: 863404
 SHA256: 3db64e6cff0c5388bccc75114ad40242f544472e5c39aa8409b72db4c97ebc0b
 
+Package: ndk-sysroot-x
+Architecture: arm
+Installed-Size: 16184
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 16-8
+Description: System header and library files from the Android NDK needed for compiling C programs
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: libandroid-support-dev
+Conflicts: libutil-dev, ndk-sysroot, libgcc
+Replaces: libutil-dev, ndk-sysroot, libgcc
+Provides: libutil-dev, ndk-sysroot, libgcc
+Filename: dists/termux/x-gui/binary-arm/ndk-sysroot-x_16-8_arm.deb
+Size: 1064556
+SHA256: d744419f6dbad8c2cdaa121559a8109bad66ac87c46e22f693f2c0be5501bc86
+
 Package: openbox-dev
 Architecture: arm
 Installed-Size: 116

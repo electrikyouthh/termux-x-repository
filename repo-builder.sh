@@ -59,7 +59,7 @@ for repo_component in ${COMPONENTS}; do
                         echo -ne "\033[2K\r[*] ${repo_component}/${arch}: adding '$(echo ${package} | cut -d/ -f2)'"
                         ar -p "${package}" control.tar.xz | tar --to-stdout -xJf - ./control >> Packages
                         FILENAME="${PACKAGE_DIR_PATH//"${REPO_PATH}/"}/${package//"./"}"
-                        SIZE=$(du -b "${package}" | awk '{ print $1 }')
+                        SIZE=$(wc -c "${package}" | awk '{ print $1 }')
                         SHA256=$(sha256sum "${package}" | awk '{ print $1 }')
                         echo "Filename: ${FILENAME}" >> Packages
                         echo "Size: ${SIZE}" >> Packages
@@ -75,8 +75,8 @@ for repo_component in ${COMPONENTS}; do
                         exit 1
                     fi
 
-                    echo " `sha256sum "Packages" | awk '{ print $1 }'` `du -b "Packages" | awk '{ print $1 }'` ${PACKAGE_DIR_PATH//"${REPO_PATH}/dists/${CODENAME}/"}/Packages" >> "${RELEASE_PATH}"
-                    echo " `sha256sum "Packages.xz" | awk '{ print $1 }'` `du -b "Packages.xz" | awk '{ print $1 }'` ${PACKAGE_DIR_PATH//"${REPO_PATH}/dists/${CODENAME}/"}/Packages.xz" >> "${RELEASE_PATH}"
+                    echo " `sha256sum "Packages" | awk '{ print $1 }'` `wc -c "Packages" | awk '{ print $1 }'` ${PACKAGE_DIR_PATH//"${REPO_PATH}/dists/${CODENAME}/"}/Packages" >> "${RELEASE_PATH}"
+                    echo " `sha256sum "Packages.xz" | awk '{ print $1 }'` `wc -c "Packages.xz" | awk '{ print $1 }'` ${PACKAGE_DIR_PATH//"${REPO_PATH}/dists/${CODENAME}/"}/Packages.xz" >> "${RELEASE_PATH}"
                 fi
             } || {
                 echo "[!] Cannot cd to '${PACKAGE_DIR_PATH}'."

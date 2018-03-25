@@ -766,6 +766,21 @@ Filename: dists/termux/x-gui/binary-i686/luit_1.1.1-1_i686.deb
 Size: 15660
 SHA256: f661b3ddfbcdbf1a06d47672c3d913c764418b64538fd144cd2e117fb37bb315
 
+Package: ndk-sysroot-x
+Architecture: i686
+Installed-Size: 14380
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 16-8
+Description: System header and library files from the Android NDK needed for compiling C programs
+Homepage: https://developer.android.com/tools/sdk/ndk/index.html
+Depends: libandroid-support-dev
+Conflicts: libutil-dev, ndk-sysroot, libgcc
+Replaces: libutil-dev, ndk-sysroot, libgcc
+Provides: libutil-dev, ndk-sysroot, libgcc
+Filename: dists/termux/x-gui/binary-i686/ndk-sysroot-x_16-8_i686.deb
+Size: 2825528
+SHA256: c893333eddb1f145b2c2168e45929b5d9f420a9d3f3bf9361941f9168c9759ad
+
 Package: openbox-dev
 Architecture: i686
 Installed-Size: 116
