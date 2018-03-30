@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/sh
-
-PREFIX=/data/data/com.termux/files/usr
+set -e
+[ -z "${PREFIX}" ] && PREFIX=/data/data/com.termux/files/usr
 
 if [ -z "${TMPDIR}" ]; then
     TMPDIR="${PREFIX}/tmp"
