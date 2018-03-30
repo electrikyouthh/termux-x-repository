@@ -9,6 +9,12 @@ wget https://raw.githubusercontent.com/xeffyr/termux-x-repository/master/enabler
 bash enablerepo.sh
 ```
 
+To disable repository you need to edit your sources.list file or run the following commands:
+```
+wget https://raw.githubusercontent.com/xeffyr/termux-x-repository/master/disablerepo.sh
+bash disablerepo.sh
+```
+
 ## How to run X packages
 1. Install package 'termux-desktop' from this repository: `pkg install termux-desktop`. This will provide an Openbox environment with some programs preinstalled.
 2. Install VNC viewer. You can use this: https://play.google.com/store/apps/details?id=com.realvnc.viewer.android
@@ -20,4 +26,15 @@ be launched.
 If you want to launch a X program directly from the Termux, make sure that a variable DISPLAY set to correct display:
 ```
 export DISPLAY=:1
+```
+
+To use X packages with [Xserver XSDL](https://play.google.com/store/apps/details?id=x.org.server) application, you need to set the following environment variables:
+```
+export DISPLAY=localhost:0
+export PULSE_SERVER=localhost:4712
+```
+
+and then you can start Openbox session:
+```
+bash -c "openbox-session &"
 ```
