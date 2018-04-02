@@ -2,6 +2,8 @@
 This is unofficial [Termux](https://github.com/termux/termux-app) repository that contains various X/GUI packages such as **dosbox**.
 Build scripts and patches are located in [my 'termux-packages' repository](https://github.com/xeffyr/termux-packages/tree/termux-x-packages).
 
+**WARNING:** Starting from Android version 8.0, some X packages will not work due to seccomp. You will get 'Bad system call' error or something similar when you will try to execute programs. Currently, there is no way to avoid this.
+
 ## How to enable this repository
 Download and run a [script](https://github.com/xeffyr/termux-x-repository/blob/master/enablerepo.sh) that will automatically add repository to your 'sources.list' file and add public key:
 ```
