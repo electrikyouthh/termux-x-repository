@@ -1,3 +1,15 @@
+Package: azpainter
+Architecture: arm
+Installed-Size: 1360
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.1.1-1
+Description: Full color painting software for Linux for illustration drawing.
+Homepage: https://osdn.net/projects/azpainter/
+Depends: libx11, libxext, libxi, freetype, fontconfig, libpng, libjpeg-turbo, libandroid-shmem
+Filename: dists/termux/x-gui/binary-arm/azpainter_2.1.1-1_arm.deb
+Size: 360404
+SHA256: c9befdcaab2e11994fe71ad474e42a9a9ff87ad6a5068e63748770c038abf277
+
 Package: desktop-file-utils
 Architecture: arm
 Installed-Size: 144
