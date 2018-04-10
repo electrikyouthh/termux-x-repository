@@ -37,13 +37,13 @@ Package: python2-xlib
 Architecture: all
 Installed-Size: 588
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 0.20
+Version: 0.20-1
 Description: A fully functional X client library for Python programs
 Homepage: https://github.com/python-xlib/python-xlib
 Depends: python2, python2-six, libx11
-Filename: dists/termux/x-gui/binary-all/python2-xlib_0.20_all.deb
-Size: 73036
-SHA256: f62eed551416b3ebc42f66484f34bef34c24ce5de8a98cb94775f789d1ed49a3
+Filename: dists/termux/x-gui/binary-all/python2-xlib_0.20-1_all.deb
+Size: 73056
+SHA256: 0f3331dbe71275292d25115badf5badbfe21897dca45e44e59f81c36f5e29b43
 
 Package: startx
 Architecture: all
@@ -75,15 +75,15 @@ SHA256: 4c60aa1f9002cba5ecc151e8f94b0b1f139500fffd06b9a276f003ae37f2101e
 
 Package: x11-proto
 Architecture: all
-Installed-Size: 1304
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.19.1
+Installed-Size: 1632
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2018.4
 Description: X11 headers
 Homepage: https://www.x.org
 Depends: xorg-util-macros
-Filename: dists/termux/x-gui/binary-all/x11-proto_1.19.1_all.deb
-Size: 143856
-SHA256: dcfbe35a7ae4972e2c01a0c3d3c83e26bf7413e8088c1e833b30dcb985630fac
+Filename: dists/termux/x-gui/binary-all/x11-proto_2018.4_all.deb
+Size: 170932
+SHA256: 1f43a530770c7993c7bf44ee835bf4827efdb31f38a12ef39d0d0757b7bcc90f
 
 Package: xkeyboard-config
 Architecture: all
