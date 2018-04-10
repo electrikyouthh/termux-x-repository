@@ -1,1262 +1,1262 @@
 Package: azpainter
 Architecture: arm
-Installed-Size: 1360
+Installed-Size: 1392
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.1.1-1
+Version: 2.1.1-3
 Description: Full color painting software for Linux for illustration drawing.
 Homepage: https://osdn.net/projects/azpainter/
 Depends: libx11, libxext, libxi, freetype, fontconfig, libpng, libjpeg-turbo, libandroid-shmem
-Filename: dists/termux/x-gui/binary-arm/azpainter_2.1.1-1_arm.deb
-Size: 360404
-SHA256: c9befdcaab2e11994fe71ad474e42a9a9ff87ad6a5068e63748770c038abf277
+Filename: dists/termux/x-gui/binary-arm/azpainter_2.1.1-3_arm.deb
+Size: 360620
+SHA256: fccb0ddb216c3832845c1bcc0211c42e972f69916a8c56c167bf88c3b26c2c44
 
 Package: desktop-file-utils
 Architecture: arm
 Installed-Size: 144
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 0.23-2
+Version: 0.23-3
 Description: Command line utilities for working with desktop entries
 Homepage: https://www.freedesktop.org/wiki/Software/desktop-file-utils
 Depends: glib
-Filename: dists/termux/x-gui/binary-arm/desktop-file-utils_0.23-2_arm.deb
-Size: 28668
-SHA256: 2cbc95a4a11ca6543e53827c14bb5dea22b548446034bc705f389de95a121ce8
+Filename: dists/termux/x-gui/binary-arm/desktop-file-utils_0.23-3_arm.deb
+Size: 28688
+SHA256: 143377f90e33b32077dc1bdeeedd7116659a32425745bc74177079b090e03b53
 
 Package: dosbox
 Architecture: arm
-Installed-Size: 1628
+Installed-Size: 1640
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 0.74-2
+Version: 0.74-3
 Description: Emulator with builtin DOS for running DOS Games
 Homepage: http://dosbox.sourceforge.net/
 Depends: libsdl, libsdl-net
-Filename: dists/termux/x-gui/binary-arm/dosbox_0.74-2_arm.deb
-Size: 618800
-SHA256: 5e8e8b4a3d2795f233f2ddedc7695bfd8a8841dcfb766cca858415fe454c0d77
+Filename: dists/termux/x-gui/binary-arm/dosbox_0.74-3_arm.deb
+Size: 626740
+SHA256: fb267ab664dfc6eced2d1a78a8b0d431d57e2b10660b1240def24011a52022fa
 
 Package: feh
 Architecture: arm
 Installed-Size: 316
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.22.2-2
+Version: 2.25.1
 Description: Fast and light imlib2-based image viewer
 Homepage: https://feh.finalrewind.org/
 Depends: imlib2, libcurl, libexif, libxinerama, libxt
-Filename: dists/termux/x-gui/binary-arm/feh_2.22.2-2_arm.deb
-Size: 134504
-SHA256: 956e7036827821fe6d923438be85d192c29ba96adcb60b10caad53cb8b045b3d
+Filename: dists/termux/x-gui/binary-arm/feh_2.25.1_arm.deb
+Size: 135440
+SHA256: 82140caafaee9f086e1ca070eca7d7d7c443ea719c9eceb9410768af1691ad14
 
 Package: fltk-dev
 Architecture: arm
 Installed-Size: 1188
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.3.4-1
+Version: 1.3.4-2
 Description: Development files for fltk
 Homepage: http://www.fltk.org/
 Depends: fltk
-Filename: dists/termux/x-gui/binary-arm/fltk-dev_1.3.4-1_arm.deb
-Size: 176844
-SHA256: 45db7e2931cf8c5ceaac6a9bb0fdee167193c6c49cd7e303ba90324f643ef1b3
+Filename: dists/termux/x-gui/binary-arm/fltk-dev_1.3.4-2_arm.deb
+Size: 176920
+SHA256: bec70299c1c3b251bf94291456cdf75d5d049cf1bf3c99dd1049c555800e8cce
 
 Package: fltk-editor
 Architecture: arm
 Installed-Size: 28
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0-termux-1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-2
 Description: Simple text editor
 Homepage: 
 Depends: fltk
-Filename: dists/termux/x-gui/binary-arm/fltk-editor_1.0-termux-1_arm.deb
-Size: 11648
-SHA256: fa637899bd42636636ed0b1291f08662e004e88416356ab9ea6e0c994b5797c8
+Filename: dists/termux/x-gui/binary-arm/fltk-editor_1.0-termux-2_arm.deb
+Size: 11696
+SHA256: 05e462ef5fb0f5571d7bbcedfec807d6decb3ea1b1d6dd5580300fdd9f039351
 
 Package: fltk
 Architecture: arm
 Installed-Size: 1132
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.3.4-1
+Version: 1.3.4-2
 Description: Graphical user interface toolkit for X
 Homepage: http://www.fltk.org/
 Depends: libjpeg-turbo, libxcursor, libxfixes, libxft, libxinerama, libxrender
 Replaces: fluid
-Filename: dists/termux/x-gui/binary-arm/fltk_1.3.4-1_arm.deb
-Size: 493620
-SHA256: d2fad73b60239bb1e29605b58ff2eb0c18d041539498833a2fd4ad3b472707bb
+Filename: dists/termux/x-gui/binary-arm/fltk_1.3.4-2_arm.deb
+Size: 492460
+SHA256: d20d2db3dc8fc000f6d0a9d65dd7e3ef69259b48295dc37d7edc1b2cd0686653
 
 Package: fontutil
 Architecture: arm
 Installed-Size: 252
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.1-1
 Description: FIXME:Add description
 Homepage: https://www.x.org
-Filename: dists/termux/x-gui/binary-arm/fontutil_1.3.1_arm.deb
-Size: 22492
-SHA256: e2bc5e112b0d7bfff188edda3847319f8872d0430d5529ad1ae4f64c61ecc303
+Filename: dists/termux/x-gui/binary-arm/fontutil_1.3.1-1_arm.deb
+Size: 22884
+SHA256: 859efa8ba6253a3b4e647a21be755b77f1d9166be7e597694ebcaef915c24745
 
 Package: giflib-dev
 Architecture: arm
 Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.1.4-1
 Description: Development files for giflib
 Homepage: http://sourceforge.net/projects/giflib/
 Depends: giflib
-Filename: dists/termux/x-gui/binary-arm/giflib-dev_5.1.4_arm.deb
-Size: 4108
-SHA256: 0efd4bb4173933749f15b1cceeb79ae165f6b403afd298a30009a62eb37b04d5
+Filename: dists/termux/x-gui/binary-arm/giflib-dev_5.1.4-1_arm.deb
+Size: 4132
+SHA256: 55c1bd59b6f8cfb3683150992dbf3bad4dfe212610f6df96bfa4f67bc7918c6b
 
 Package: giflib
 Architecture: arm
-Installed-Size: 204
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.4
+Installed-Size: 200
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.1.4-1
 Description: A library for reading and writing gif images
 Homepage: http://sourceforge.net/projects/giflib/
-Filename: dists/termux/x-gui/binary-arm/giflib_5.1.4_arm.deb
-Size: 42988
-SHA256: 08f7c0f0aa8644ffd09122ecc5b147865bb6998d886b361edef5a3c1798d4f62
+Filename: dists/termux/x-gui/binary-arm/giflib_5.1.4-1_arm.deb
+Size: 43980
+SHA256: 4f185ca29e3e1d55567ad53b453f1567ed388f0bfe3a80dc198461cecc303333
 
 Package: imlib2-dev
 Architecture: arm
 Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.10
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.4.10-1
 Description: Development files for imlib2
 Homepage: http://sourceforge.net/projects/enlightenment/
 Depends: imlib2
-Filename: dists/termux/x-gui/binary-arm/imlib2-dev_1.4.10_arm.deb
-Size: 5276
-SHA256: bbcb634382de0981117c9579b2b2e8010e06f98193b9d515c5a4247a122aec23
+Filename: dists/termux/x-gui/binary-arm/imlib2-dev_1.4.10-1_arm.deb
+Size: 5304
+SHA256: d955408e5390c960031430261825572af7ce6fb9e88596b1e598d7178a0f4a9c
 
 Package: imlib2
 Architecture: arm
-Installed-Size: 944
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.10
+Installed-Size: 972
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.4.10-1
 Description: Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
 Homepage: http://sourceforge.net/projects/enlightenment/
 Depends: freetype, giflib, libandroid-shmem, libbz2, libjpeg-turbo, libpng, libtiff, libxext, libid3tag
-Filename: dists/termux/x-gui/binary-arm/imlib2_1.4.10_arm.deb
-Size: 466348
-SHA256: e2b5102415551e4bfe1d68931e7900a5d773c780e02d42f757db41827db58464
+Filename: dists/termux/x-gui/binary-arm/imlib2_1.4.10-1_arm.deb
+Size: 472880
+SHA256: c7faa2d51be1ec2d7212c3574a3b2e68b6de02d7b739cab578b6c1c12cf88663
 
 Package: libatk-dev
 Architecture: arm
 Installed-Size: 280
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.24.0
+Version: 2.24.0-1
 Description: Development files for libatk
 Homepage: https://www.gtk.org
 Depends: libatk
-Filename: dists/termux/x-gui/binary-arm/libatk-dev_2.24.0_arm.deb
-Size: 32876
-SHA256: 6595562e0e4b3cf52796b61cd07c4d2cae88b15a2d4d83a0842f4eff3b411c91
+Filename: dists/termux/x-gui/binary-arm/libatk-dev_2.24.0-1_arm.deb
+Size: 32888
+SHA256: c197884b401b714532f5796b461ca1c9b27bbbd0ade951ae335a7dd1eab501e3
 
 Package: libatk
 Architecture: arm
 Installed-Size: 100
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.24.0
+Version: 2.24.0-1
 Description: FIXME:Add description
 Homepage: https://www.gtk.org
 Depends: glib, libandroid-support
-Filename: dists/termux/x-gui/binary-arm/libatk_2.24.0_arm.deb
-Size: 31588
-SHA256: 8ab655ac1be796b7c4e59b96b2a32c974b606a7c09eebc52e5eb5463ac778700
+Filename: dists/termux/x-gui/binary-arm/libatk_2.24.0-1_arm.deb
+Size: 31616
+SHA256: 7aeb85aca26ee8122cdf7684335762cf9fbd6b06727a506d8609be4a547fe9a9
 
 Package: libcairo-x-dev
 Architecture: arm
 Installed-Size: 224
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.14.12
+Version: 1.14.12-2
 Description: Development files for libcairo-x
 Homepage: https://cairographics.org
 Depends: libcairo-x
-Filename: dists/termux/x-gui/binary-arm/libcairo-x-dev_1.14.12_arm.deb
-Size: 28092
-SHA256: 6c21a012237cc042f88d7f94598c1439b1125009c4e2235a671ed80661bd0bfa
+Filename: dists/termux/x-gui/binary-arm/libcairo-x-dev_1.14.12-2_arm.deb
+Size: 28084
+SHA256: 3f16c3de0b07135973b29eb0d62f6a603b42f992c51fecdf51eeaa8f5db32827
 
 Package: libcairo-x
 Architecture: arm
-Installed-Size: 804
+Installed-Size: 840
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.14.12
+Version: 1.14.12-2
 Description: Cairo 2D vector graphics library (with X)
 Homepage: https://cairographics.org
 Depends: fontconfig, freetype, glib, libandroid-shmem, libandroid-support, liblzo, libpixman, libpng, librsvg, libx11, libxcb, libxext, libxrender, poppler
 Conflicts: libcairo, libcairo-gobject, libcairo-dev
 Replaces: libcairo, libcairo-gobject
 Provides: libcairo, libcairo-gobject
-Filename: dists/termux/x-gui/binary-arm/libcairo-x_1.14.12_arm.deb
-Size: 367552
-SHA256: a96241baa354d158913847b5b64a6231906f89e44dfb314ff12f2c22909e0d2d
+Filename: dists/termux/x-gui/binary-arm/libcairo-x_1.14.12-2_arm.deb
+Size: 383540
+SHA256: de8963cfb53ffdd966e7fc2cebdfb521e9f83b0150a9d4c2355e2f5f81f135d1
 
 Package: libdrm-dev
 Architecture: arm
 Installed-Size: 596
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4.80-1
+Version: 2.4.80-2
 Description: Development files for libdrm
 Homepage: http://dri.freedesktop.org
 Depends: libdrm
-Filename: dists/termux/x-gui/binary-arm/libdrm-dev_2.4.80-1_arm.deb
-Size: 90236
-SHA256: c69cc4b4ad28d1a7e310e5b2f8607704f5a3bcc3465d64d334e36d45781c9b45
+Filename: dists/termux/x-gui/binary-arm/libdrm-dev_2.4.80-2_arm.deb
+Size: 90308
+SHA256: cc54720fd886172c9dc5d964ceff40f51b0bea3d5669c7a292574c2eeab45a13
 
 Package: libdrm
 Architecture: arm
 Installed-Size: 220
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4.80-1
+Version: 2.4.80-2
 Description: FIXME:Add description
 Homepage: http://dri.freedesktop.org
-Filename: dists/termux/x-gui/binary-arm/libdrm_2.4.80-1_arm.deb
-Size: 65456
-SHA256: 0c4ad3a9f9ffb5f2f0b301c626bdc9c28f8a62e40765c7027d2684583919c5c1
+Filename: dists/termux/x-gui/binary-arm/libdrm_2.4.80-2_arm.deb
+Size: 65544
+SHA256: a5dd46ab012f1e35e5e790039ae2aea6616fc0dd3bc95f166e8dfb449bcde2e1
 
 Package: libepoxy-dev
 Architecture: arm
 Installed-Size: 1564
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.4.0-2
+Version: 1.4.0-3
 Description: Development files for libepoxy
 Homepage: https://github.com/anholt/libepoxy
 Depends: libepoxy
-Filename: dists/termux/x-gui/binary-arm/libepoxy-dev_1.4.0-2_arm.deb
-Size: 114368
-SHA256: 92a22703af58d267635de2db0897945f60b3b97a2c75e8af0b73979cfa4e48bf
+Filename: dists/termux/x-gui/binary-arm/libepoxy-dev_1.4.0-3_arm.deb
+Size: 114332
+SHA256: fc98899b3898eb6214b4ec999055e16b5b6bf4607c8d8dfdc7fd49393ed94622
 
 Package: libepoxy
 Architecture: arm
 Installed-Size: 620
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.4.0-2
+Version: 1.4.0-3
 Description: Library handling OpenGL function pointer management
 Homepage: https://github.com/anholt/libepoxy
 Depends: libmesa
-Filename: dists/termux/x-gui/binary-arm/libepoxy_1.4.0-2_arm.deb
-Size: 102552
-SHA256: 587913e32808e627e255e407600649d6c25e1408bb5825c50974e698f4616307
+Filename: dists/termux/x-gui/binary-arm/libepoxy_1.4.0-3_arm.deb
+Size: 102624
+SHA256: 47975848c92bf4ad678dae520782abe16fa6bb31069f6ca9e1ba410fa567d732
 
 Package: libfontenc-dev
 Architecture: arm
 Installed-Size: 12
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.3-1
 Description: Development files for libfontenc
 Homepage: https://www.x.org
 Depends: libfontenc
-Filename: dists/termux/x-gui/binary-arm/libfontenc-dev_1.1.3_arm.deb
-Size: 3120
-SHA256: d890a353ef5adacf7566083cdc133beb66e4382dfb58b52843389ca630066e50
+Filename: dists/termux/x-gui/binary-arm/libfontenc-dev_1.1.3-1_arm.deb
+Size: 3144
+SHA256: 3a59624094879442cbe00f29a550fe41bb3b820e8a2ead8ac3dd53d6c3b4eaa2
 
 Package: libfontenc
 Architecture: arm
-Installed-Size: 24
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Installed-Size: 28
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.3-1
 Description: X11 font encoding library
 Homepage: https://www.x.org
 Depends: fontutil, x11-proto
-Filename: dists/termux/x-gui/binary-arm/libfontenc_1.1.3_arm.deb
-Size: 7976
-SHA256: 3ebf547acf1517d62c78fa2f959613be75466ed1623336d8722bf67644eb1c63
+Filename: dists/termux/x-gui/binary-arm/libfontenc_1.1.3-1_arm.deb
+Size: 8220
+SHA256: 33369526baf34bdd1e48303475e965ec344391700eaff1b7edb7fa44a51b3b47
 
 Package: libgtk3-dev
 Architecture: arm
 Installed-Size: 3008
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 3.22.26-13
+Version: 3.22.26-14
 Description: Development files for libgtk3
 Homepage: http://www.gtk.org/
 Depends: libgtk3
-Filename: dists/termux/x-gui/binary-arm/libgtk3-dev_3.22.26-13_arm.deb
-Size: 240732
-SHA256: f62ce90c5c25bc7bff0140e477f7b6a3e363ccbb941a3102bfe912bfe9e58950
+Filename: dists/termux/x-gui/binary-arm/libgtk3-dev_3.22.26-14_arm.deb
+Size: 240896
+SHA256: 5800ef4b0c189e72819cf67d188a016d6087e7476b7948b25da2d4e26eb92215
 
 Package: libgtk3
 Architecture: arm
-Installed-Size: 9564
+Installed-Size: 9508
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 3.22.26-13
+Version: 3.22.26-14
 Description: GObject-based multi-platform GUI toolkit
 Homepage: http://www.gtk.org/
 Depends: adwaita-icon-theme, desktop-file-utils, gdk-pixbuf, glib, glib-bin, libatk, libcairo-x, libepoxy, libxcomposite, libxcursor, libxdamage, libxfixes, libxi, libxinerama, pangoxft, shared-mime-info, x11-proto
-Filename: dists/termux/x-gui/binary-arm/libgtk3_3.22.26-13_arm.deb
-Size: 2575864
-SHA256: 396fe738375137677807dec245d0d532e33d30cf6b5b9f28022e169dda756789
+Filename: dists/termux/x-gui/binary-arm/libgtk3_3.22.26-14_arm.deb
+Size: 2547296
+SHA256: 17bef4b0815b20aaf4b4dceb5c3555cb8b6de87800c39ea474bdfec730a95c6c
 
 Package: libice-dev
 Architecture: arm
 Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.9
 Description: Development files for libice
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libice
-Filename: dists/termux/x-gui/binary-arm/libice-dev_1.0.8_arm.deb
-Size: 7476
-SHA256: c98816b5c77c2a4392d14d5edd7f18755ee6bdce297ff7775ee2b0d979a025fb
+Filename: dists/termux/x-gui/binary-arm/libice-dev_1.0.9_arm.deb
+Size: 7464
+SHA256: 3a27483a5fa91cf736144012a3cd3a431c9b62938580a48cb2b2a62fda95c422
 
 Package: libice
 Architecture: arm
 Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.9
 Description: X11 Inter-Client Exchange library
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: x11-proto, xtrans, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libice_1.0.8_arm.deb
-Size: 25864
-SHA256: 42c904493064868343216220d7b5c6d7fd40543c0eb0dad9404c0db656ad31d1
+Filename: dists/termux/x-gui/binary-arm/libice_1.0.9_arm.deb
+Size: 25996
+SHA256: c35648e6f89078bef73182de474c54310bdcd3df517ccd7b321381f99676c67d
 
 Package: liblua51-dev
 Architecture: arm
 Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.5-2
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.1.5-3
 Description: Development files for liblua51
 Homepage: https://www.lua.org/
 Depends: liblua51
-Filename: dists/termux/x-gui/binary-arm/liblua51-dev_5.1.5-2_arm.deb
-Size: 12152
-SHA256: fb77633d0ef68b418282149f8cef9034b1d360dab122ee4df895606ec9c32114
+Filename: dists/termux/x-gui/binary-arm/liblua51-dev_5.1.5-3_arm.deb
+Size: 12172
+SHA256: fd93104a47b38872f2a9bbbf7959a041e50a9f62e4c64359b794453b9d1275b1
 
 Package: liblua51
 Architecture: arm
 Installed-Size: 108
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.5-2
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.1.5-3
 Description: Shared library for the Lua interpreter (v5.1)
 Homepage: https://www.lua.org/
-Filename: dists/termux/x-gui/binary-arm/liblua51_5.1.5-2_arm.deb
-Size: 49884
-SHA256: 7b8f7b50ebdbe7a7bc0ae77f05ab3826f82dbb2185519f5fcc10ea244b405be3
+Filename: dists/termux/x-gui/binary-arm/liblua51_5.1.5-3_arm.deb
+Size: 51024
+SHA256: c1cbafda16ccffb7c1d7d55decd56cf3d572307f48fc163c05372e841f37dce8
 
 Package: libmesa-dev
 Architecture: arm
 Installed-Size: 1404
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 17.1.4-3
+Version: 17.1.4-5
 Description: Development files for libmesa
 Homepage: https://www.mesa3d.org
 Depends: libmesa,ndk-sysroot-x
-Filename: dists/termux/x-gui/binary-arm/libmesa-dev_17.1.4-3_arm.deb
-Size: 124624
-SHA256: bad2e8f7243dd0f833576b171ab047ee206acce55159c32ef5a51983a55f2011
+Filename: dists/termux/x-gui/binary-arm/libmesa-dev_17.1.4-5_arm.deb
+Size: 124564
+SHA256: 49e739e31f18e871c15bb9b6d7b3edd8adec58feba97ada51abf7b615800866f
 
 Package: libmesa
 Architecture: arm
 Installed-Size: 488
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 17.1.4-3
+Version: 17.1.4-5
 Description: FIXME:Add description
 Homepage: https://www.mesa3d.org
 Depends: libexpat, libxml2, libx11, x11-proto, libdrm, libxdamage, libxshmfence, libandroid-shmem
-Filename: dists/termux/x-gui/binary-arm/libmesa_17.1.4-3_arm.deb
-Size: 121652
-SHA256: f278f9b0c9523df96195c47441075f8a00b739aa7997ca628cd027c57b0a4770
+Filename: dists/termux/x-gui/binary-arm/libmesa_17.1.4-5_arm.deb
+Size: 121464
+SHA256: 8725cbd92eefdaa22131cf9442b9500d87eeda1d8234526c5136fbc821a70319
 
 Package: libsdl-dev
 Architecture: arm
 Installed-Size: 1308
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.2.15-1
+Version: 1.2.15-2
 Description: Development files for libsdl
 Homepage: https://www.libsdl.org
 Depends: libsdl
-Filename: dists/termux/x-gui/binary-arm/libsdl-dev_1.2.15-1_arm.deb
-Size: 107316
-SHA256: 0f8fd79c51996b94b386e431b202b2b180cd8e7e6cb01ba03c0be3466597225d
+Filename: dists/termux/x-gui/binary-arm/libsdl-dev_1.2.15-2_arm.deb
+Size: 107360
+SHA256: c46c2206cb408416ab355080c875abf543f7704e66a3c0214bc4253ea546f80d
 
 Package: libsdl-net-dev
 Architecture: arm
 Installed-Size: 24
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.8-1
 Description: Development files for libsdl-net
 Homepage: https://www.libsdl.org/projects/SDL_net/
 Depends: libsdl-net
-Filename: dists/termux/x-gui/binary-arm/libsdl-net-dev_1.2.8_arm.deb
-Size: 5588
-SHA256: e27c529cf846f82a64085829659446cfdca4de8e7900180a6eee5afe8474ed06
+Filename: dists/termux/x-gui/binary-arm/libsdl-net-dev_1.2.8-1_arm.deb
+Size: 5604
+SHA256: 544169d3942157d5044eafa254f864e4543688dc9509faa00372dfbdc0d110a1
 
 Package: libsdl-net
 Architecture: arm
-Installed-Size: 28
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.8
+Installed-Size: 24
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.8-1
 Description: A small sample cross-platform networking library
 Homepage: https://www.libsdl.org/projects/SDL_net/
 Depends: libsdl
-Filename: dists/termux/x-gui/binary-arm/libsdl-net_1.2.8_arm.deb
-Size: 8216
-SHA256: ec113c6e2db40fbe6935c098d6e5c97decaa45346bdb3dbe4f5e667f9b290842
+Filename: dists/termux/x-gui/binary-arm/libsdl-net_1.2.8-1_arm.deb
+Size: 5232
+SHA256: f5d77326f4d4338942f928a043c424c129d316ea42881ece08e64428d3890915
 
 Package: libsdl
 Architecture: arm
 Installed-Size: 248
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.2.15-1
+Version: 1.2.15-2
 Description: A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
 Homepage: https://www.libsdl.org
 Depends: libx11, libxext, libxrender, pulseaudio
-Filename: dists/termux/x-gui/binary-arm/libsdl_1.2.15-1_arm.deb
-Size: 115996
-SHA256: 8ebf0f60825867b04e379e4a11aafd13600d360ee080f89490e88c50023db783
+Filename: dists/termux/x-gui/binary-arm/libsdl_1.2.15-2_arm.deb
+Size: 115116
+SHA256: 3c538076c630944eb0a327a078523f597d3efbf31624e02b067ebf66a6a54f46
 
 Package: libseccomp-dev
 Architecture: arm
 Installed-Size: 168
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.3.2
+Version: 2.3.2-1
 Description: Development files for libseccomp
 Homepage: https://github.com/seccomp/libseccomp
 Depends: libseccomp
-Filename: dists/termux/x-gui/binary-arm/libseccomp-dev_2.3.2_arm.deb
-Size: 14512
-SHA256: e93a2108084d5af50680ddaa6fc4931f3ac0d6786f8a016e006a8630be05b29c
+Filename: dists/termux/x-gui/binary-arm/libseccomp-dev_2.3.2-1_arm.deb
+Size: 14504
+SHA256: 20df60013bf98139f613638af5949b28e3da912ba96b5508344d7486d224cbb6
 
 Package: libseccomp
 Architecture: arm
 Installed-Size: 132
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.3.2
+Version: 2.3.2-1
 Description: Enhanced seccomp library
 Homepage: https://github.com/seccomp/libseccomp
-Filename: dists/termux/x-gui/binary-arm/libseccomp_2.3.2_arm.deb
-Size: 27192
-SHA256: ba02c4fc4b2b638f110992f50e6cbb8cdd4a49484098f9ed11d5d03b1a8b062c
+Filename: dists/termux/x-gui/binary-arm/libseccomp_2.3.2-1_arm.deb
+Size: 27080
+SHA256: 65105808ec466f9e81df11cc46c1ac20608df456187eb749c9ea44936e397108
 
 Package: libsm-dev
 Architecture: arm
 Installed-Size: 28
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.2
 Description: Development files for libsm
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libsm
-Filename: dists/termux/x-gui/binary-arm/libsm-dev_1.2.1_arm.deb
-Size: 4308
-SHA256: 1c101911a3b822c4054b1704710e5d45ae55df53530a45578844c857b9406ed7
+Filename: dists/termux/x-gui/binary-arm/libsm-dev_1.2.2_arm.deb
+Size: 4348
+SHA256: 57ca7e41dcf35c615a31adbba39601b961335a8573d4178a641529a48444225b
 
 Package: libsm
 Architecture: arm
 Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.2.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.2.2
 Description: X11 Session Management library
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libice, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libsm_1.2.1_arm.deb
-Size: 9620
-SHA256: 3c6b6c74bfb89b16b8a5c78e19bc0b062224bcd91d6e7a30af5c9a97d1ae4daa
+Filename: dists/termux/x-gui/binary-arm/libsm_1.2.2_arm.deb
+Size: 9492
+SHA256: e135d353ee728d7bf65e03d6b5c35cae85ef1999b79cb922264014d0823f6ed1
 
 Package: libssh2-dev
 Architecture: arm
 Installed-Size: 756
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.8.0
+Version: 1.8.0-1
 Description: Development files for libssh2
 Homepage: https://www.libssh2.org/
 Depends: libssh2
-Filename: dists/termux/x-gui/binary-arm/libssh2-dev_1.8.0_arm.deb
-Size: 41344
-SHA256: 19fb1016b2a32d312cf764baba77381f48a4b46a2241fb20d64c6e7df0100d33
+Filename: dists/termux/x-gui/binary-arm/libssh2-dev_1.8.0-1_arm.deb
+Size: 41372
+SHA256: 15a9cb38548c089469e7ac163f78a659c17b4c781be6623064c4583788409192
 
 Package: libssh2
 Architecture: arm
 Installed-Size: 108
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.8.0
+Version: 1.8.0-1
 Description: A library implementing the SSH2 protocol as defined by Internet Drafts
 Homepage: https://www.libssh2.org/
 Depends: openssl
-Filename: dists/termux/x-gui/binary-arm/libssh2_1.8.0_arm.deb
-Size: 53692
-SHA256: b75cc96cc2e436e1376c58a70abcb4e863b19de7655383100222d4736290b887
+Filename: dists/termux/x-gui/binary-arm/libssh2_1.8.0-1_arm.deb
+Size: 53872
+SHA256: 6d039011a1a301b358a91b3a0372d221fc39ff31d8af910968e2e31d79178f22
 
 Package: libx11-dev
 Architecture: arm
 Installed-Size: 4748
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.6.5
 Description: Development files for libx11
-Homepage: 
+Homepage: https://xorg.freedesktop.org/
 Depends: libx11
-Filename: dists/termux/x-gui/binary-arm/libx11-dev_1.6.4_arm.deb
-Size: 228276
-SHA256: acd2fe669ee6dc70b28d874da4180a01c3a0cb238f19713a0740a853df12900b
+Filename: dists/termux/x-gui/binary-arm/libx11-dev_1.6.5_arm.deb
+Size: 228328
+SHA256: 31148608310b824c6e95aadf685e02fec8107335b9b281ae24c8017708c441e0
 
 Package: libx11
 Architecture: arm
-Installed-Size: 2756
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.6.4
+Installed-Size: 2752
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.6.5
 Description: X11 client-side library
-Homepage: 
+Homepage: https://xorg.freedesktop.org/
 Depends: x11-proto, xtrans, libxcb, libandroid-support, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libx11_1.6.4_arm.deb
-Size: 554236
-SHA256: 90b5b60b8d6068119f0364d159553cfbf4b6ec2cff9172140295f8400a37f581
+Filename: dists/termux/x-gui/binary-arm/libx11_1.6.5_arm.deb
+Size: 560940
+SHA256: 0c13ef6532efdb0272d3d48c245c8a7cd64ac489d524a00804db930b5134299e
 
 Package: libxau-dev
 Architecture: arm
 Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.8-1
 Description: Development files for libxau
 Homepage: 
 Depends: libxau
-Filename: dists/termux/x-gui/binary-arm/libxau-dev_1.0.8_arm.deb
-Size: 4236
-SHA256: 21fa950a81cdef81f56978077a1b810835b728276504a50084cf962c81d70322
+Filename: dists/termux/x-gui/binary-arm/libxau-dev_1.0.8-1_arm.deb
+Size: 4256
+SHA256: 4679a4a1249c840d5b4f350a36d1b35c1b22bbc0219ec4c0ced0a720b73cbbc1
 
 Package: libxau
 Architecture: arm
 Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.8
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.8-1
 Description: X11 authorisation library
 Homepage: 
 Depends: x11-proto
-Filename: dists/termux/x-gui/binary-arm/libxau_1.0.8_arm.deb
-Size: 3328
-SHA256: d00df3e81566fed2cf67e05485d33fd93098fbb7b83537455100665c335c1037
+Filename: dists/termux/x-gui/binary-arm/libxau_1.0.8-1_arm.deb
+Size: 3364
+SHA256: a5f3d2f9f55f42763ffb642a41813cf7d288815f1e203b461c023585f06b1877
 
 Package: libxaw-dev
 Architecture: arm
 Installed-Size: 444
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.13
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.13-1
 Description: Development files for libxaw
 Homepage: https://www.x.org
 Depends: libxaw
-Filename: dists/termux/x-gui/binary-arm/libxaw-dev_1.0.13_arm.deb
-Size: 41628
-SHA256: dfb5724ef33ebcfe6d2db1964166a2eb86fcc64c4e16ed46239ad26a9a7de45a
+Filename: dists/termux/x-gui/binary-arm/libxaw-dev_1.0.13-1_arm.deb
+Size: 41656
+SHA256: 77a98b47dc1328ea16da287e7028416707d137168cce9d6eb2729721dfddb863
 
 Package: libxaw
 Architecture: arm
-Installed-Size: 448
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.13
+Installed-Size: 452
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.13-1
 Description: X11 Athena Widget library
 Homepage: https://www.x.org
 Depends: libxmu, libxpm, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxaw_1.0.13_arm.deb
-Size: 148296
-SHA256: 897ffed7dfac53567dda7bc8902d16fedaa0dc747e8b96cfa2949c68bd652170
+Filename: dists/termux/x-gui/binary-arm/libxaw_1.0.13-1_arm.deb
+Size: 152116
+SHA256: 237672024432c604326f4af561f78663d8e5701cae14fb16043a64e7fc75179f
 
 Package: libxcb-dev
 Architecture: arm
-Installed-Size: 11192
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12
+Installed-Size: 11344
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.13
 Description: Development files for libxcb
-Homepage: 
+Homepage: https://xcb.freedesktop.org/
 Depends: libxcb
-Filename: dists/termux/x-gui/binary-arm/libxcb-dev_1.12_arm.deb
-Size: 239880
-SHA256: 9508083cadb647af700adc97901a4a8b1e572ffaba3115808e3573999dec637f
+Filename: dists/termux/x-gui/binary-arm/libxcb-dev_1.13_arm.deb
+Size: 243016
+SHA256: 4c3aa5a8d20e52e210f547b47e38ac4f61c125f21e48c9efa9235ab11f1310b3
 
 Package: libxcb
 Architecture: arm
-Installed-Size: 480
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12
+Installed-Size: 556
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.13
 Description: X11 client-side library
-Homepage: 
+Homepage: https://xcb.freedesktop.org/
 Depends: xcbproto, libxau, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxcb_1.12_arm.deb
-Size: 77684
-SHA256: 28bc0b9f23c9085b901fbc541ee6c2ca2511a095ede164198e69b02356196afe
+Filename: dists/termux/x-gui/binary-arm/libxcb_1.13_arm.deb
+Size: 90680
+SHA256: d1201e008bbc0bfdebe7c160aae5393f120f035d12a43851f04515b24d045a78
 
 Package: libxcomposite-dev
 Architecture: arm
 Installed-Size: 64
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.4.4-2
 Description: Development files for libxcomposite
 Homepage: https://www.x.org
 Depends: libxcomposite
-Filename: dists/termux/x-gui/binary-arm/libxcomposite-dev_0.4.4_arm.deb
-Size: 5988
-SHA256: f889fcab9445e239ad454cdb3115e2dd661e5afb2bdc90fbae09b68675e8e749
+Filename: dists/termux/x-gui/binary-arm/libxcomposite-dev_0.4.4-2_arm.deb
+Size: 6012
+SHA256: 59276442443ab12c2d24661e1e6d9d8b6d7a9da8a1b69e5b6a1b1a73f4218749
 
 Package: libxcomposite
 Architecture: arm
 Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.4.4-2
 Description: X11 Composite extension library
 Homepage: https://www.x.org
 Depends: libxfixes, x11-proto, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxcomposite_0.4.4_arm.deb
-Size: 2728
-SHA256: 20a38feebf74bcc1ccf72ba9db430abb682a6323e569a7f151876340f7aa3c5a
+Filename: dists/termux/x-gui/binary-arm/libxcomposite_0.4.4-2_arm.deb
+Size: 2760
+SHA256: e602e69edc2461f53e96165b1fb00c400cdf298db57ee1abda62ef7eb4828c98
 
 Package: libxcursor-dev
 Architecture: arm
 Installed-Size: 160
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.1.15
+Version: 1.1.15-2
 Description: Development files for libxcursor
 Homepage: https://www.x.org
 Depends: libxcursor
-Filename: dists/termux/x-gui/binary-arm/libxcursor-dev_1.1.15_arm.deb
-Size: 8016
-SHA256: 1ac33e50ee9785c247798eea32d15e4217119d2cbd9276d80d2f5af49b795b40
+Filename: dists/termux/x-gui/binary-arm/libxcursor-dev_1.1.15-2_arm.deb
+Size: 8028
+SHA256: 187aa4c651e5c7c0247328625bf48e2c76a38656b9f9df334f736d0562e68e14
 
 Package: libxcursor
 Architecture: arm
 Installed-Size: 32
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.1.15
+Version: 1.1.15-2
 Description: X cursor management library
 Homepage: https://www.x.org
 Depends: libxfixes, libxrender, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxcursor_1.1.15_arm.deb
-Size: 14812
-SHA256: 5d8cfe5e8d3c539cdd5d92c6aa73e8b9f1b9d6c58022bfa25e2e04fcdf8e353c
+Filename: dists/termux/x-gui/binary-arm/libxcursor_1.1.15-2_arm.deb
+Size: 14796
+SHA256: 84d486d44c06cb66cf2ff0fcdae50748999af80a253b078f7b935019a983cda2
 
 Package: libxdamage-dev
 Architecture: arm
 Installed-Size: 8
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.4-2
 Description: Development files for libxdamage
 Homepage: https://www.x.org
 Depends: libxdamage
-Filename: dists/termux/x-gui/binary-arm/libxdamage-dev_1.1.4_arm.deb
-Size: 2160
-SHA256: 10cd0912d81a8d9035f1da0edd00b682af1e416a6b5d3d1dabfeaff0e633e602
+Filename: dists/termux/x-gui/binary-arm/libxdamage-dev_1.1.4-2_arm.deb
+Size: 2188
+SHA256: e08450fe894269a6e4d0a69c41301a0e93ec50f9fc85b76bcee2753df05b1a01
 
 Package: libxdamage
 Architecture: arm
 Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.4
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.4-2
 Description: X11 damaged region extension library
 Homepage: https://www.x.org
 Depends: libxfixes, x11-proto
-Filename: dists/termux/x-gui/binary-arm/libxdamage_1.1.4_arm.deb
-Size: 2880
-SHA256: 00d4c4df4e132d58bac2d25d6231cfc25d952184b37f75d3691fef2359aaa0ac
+Filename: dists/termux/x-gui/binary-arm/libxdamage_1.1.4-2_arm.deb
+Size: 2916
+SHA256: 7f8abb06c2c8faccfa15a4ba7d8336cb776ef84dc6719b866c7bfcbc8e13234f
 
 Package: libxext-dev
 Architecture: arm
 Installed-Size: 372
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.3
 Description: Development files for libxext
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libxext
-Filename: dists/termux/x-gui/binary-arm/libxext-dev_1.3.1_arm.deb
-Size: 25048
-SHA256: 34f93d45b18f142df8b8a9c5c1ef1a572d5c950456f0bc7c1605b880fd33a266
+Filename: dists/termux/x-gui/binary-arm/libxext-dev_1.3.3_arm.deb
+Size: 25096
+SHA256: 23fc2ef65548411c76bdf6b666884bcce0d8d1053ec132fd2b9699332f4e9fa6
 
 Package: libxext
 Architecture: arm
 Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.3
 Description: X11 miscellaneous extensions library
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: x11-proto, libx11, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxext_1.3.1_arm.deb
-Size: 17652
-SHA256: 77278ca44967bbea1f576912c3750c838f8af290c2ae899291253e121bbf8a8b
+Filename: dists/termux/x-gui/binary-arm/libxext_1.3.3_arm.deb
+Size: 17808
+SHA256: f60f9c8a514891679e401ad7a8a4b64ca5314a77b46295d31c8497ddf5b411a1
 
 Package: libxfixes-dev
 Architecture: arm
 Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.0.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.0.3-1
 Description: Development files for libxfixes
 Homepage: https://www.x.org
 Depends: libxfixes
-Filename: dists/termux/x-gui/binary-arm/libxfixes-dev_5.0.3_arm.deb
-Size: 4196
-SHA256: 81e16eeef8eec231a9748768d5bf063c6e3333573ea2aefea62212b42fd465cd
+Filename: dists/termux/x-gui/binary-arm/libxfixes-dev_5.0.3-1_arm.deb
+Size: 4216
+SHA256: a4416b7b19d1d2312f0541c40a62777bf5aaaedec608c4c992005ed09b2dcbca
 
 Package: libxfixes
 Architecture: arm
 Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.0.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.0.3-1
 Description: FIXME:Add description
 Homepage: https://www.x.org
 Depends: xorg-util-macros, libx11
-Filename: dists/termux/x-gui/binary-arm/libxfixes_5.0.3_arm.deb
-Size: 4676
-SHA256: b581c3b077846ef9708a5a38e81a6d7b09e4b917c0dd5cac4fe028a0f72188b6
+Filename: dists/termux/x-gui/binary-arm/libxfixes_5.0.3-1_arm.deb
+Size: 4716
+SHA256: 3158ecbc0694bae1498b4653334009b5c865a75fb326089438e1f9943b2fa735
 
 Package: libxfont2-dev
 Architecture: arm
 Installed-Size: 12
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.0.3
+Version: 2.0.3-1
 Description: Development files for libxfont2
 Homepage: 
 Depends: libxfont2
-Filename: dists/termux/x-gui/binary-arm/libxfont2-dev_2.0.3_arm.deb
-Size: 3048
-SHA256: 67711c1c6b158feb570d37eaeda37cb367d0ee5c6f75fe544424a9986f11cc3d
+Filename: dists/termux/x-gui/binary-arm/libxfont2-dev_2.0.3-1_arm.deb
+Size: 3044
+SHA256: 4e4ad3b99d0ce30fb6ccd1f1016a2279a179f541c43867c174a5f4f5ad59cc24
 
 Package: libxfont2
 Architecture: arm
-Installed-Size: 132
+Installed-Size: 136
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.0.3
+Version: 2.0.3-1
 Description: X11 font rasterisation library
 Homepage: 
 Depends: freetype, x11-proto, libfontenc, xtrans, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxfont2_2.0.3_arm.deb
-Size: 82012
-SHA256: 4457de5cda2cbf1f2850a99d7d9854e06bd9b3926d27f18846072b532dfc2058
+Filename: dists/termux/x-gui/binary-arm/libxfont2_2.0.3-1_arm.deb
+Size: 82144
+SHA256: 3e91b45b7473032639612735b148738723d392ec66bbd0adf7bfdf62bfb03f93
 
 Package: libxft-dev
 Architecture: arm
 Installed-Size: 48
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3.2
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.3.2-1
 Description: Development files for libxft
 Homepage: https://www.x.org
 Depends: libxft
-Filename: dists/termux/x-gui/binary-arm/libxft-dev_2.3.2_arm.deb
-Size: 9380
-SHA256: 12f4f03e304be44e3d1cb811098a63f0eaa4f2e82a46e584513b31032a47df5c
+Filename: dists/termux/x-gui/binary-arm/libxft-dev_2.3.2-1_arm.deb
+Size: 9404
+SHA256: 0c7505f11aec321bc1a96aded418bfda6c57abd0b95492b5389a51c38796818f
 
 Package: libxft
 Architecture: arm
-Installed-Size: 60
-Maintainer: Fredrik Fornwall @fornwall
-Version: 2.3.2
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 2.3.2-1
 Description: FreeType-based font drawing library for X
 Homepage: https://www.x.org
 Depends: libxrender, fontconfig
-Filename: dists/termux/x-gui/binary-arm/libxft_2.3.2_arm.deb
-Size: 25804
-SHA256: 87a40ef953474610f4c8969018f7a01bea24221390366e0e683b59110374045d
+Filename: dists/termux/x-gui/binary-arm/libxft_2.3.2-1_arm.deb
+Size: 27612
+SHA256: 934afb89b39941f6321638b7489613ab1c545392384d4684e4aceae22a9b5cd9
 
 Package: libxi-dev
 Architecture: arm
 Installed-Size: 496
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.7.9
+Version: 1.7.9-1
 Description: Development files for libxi
 Homepage: https://www.x.org
 Depends: libxi
-Filename: dists/termux/x-gui/binary-arm/libxi-dev_1.7.9_arm.deb
-Size: 38148
-SHA256: d4f7e143788a511632503e82b88b30d45d5d06a42a7ca39c5fc7a16ef93cd445
+Filename: dists/termux/x-gui/binary-arm/libxi-dev_1.7.9-1_arm.deb
+Size: 38144
+SHA256: a76aee99b3192ffdc3b314edcf498ca2eb6dfba1ad7779bc063c4df9acde62e7
 
 Package: libxi
 Architecture: arm
 Installed-Size: 40
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.7.9
+Version: 1.7.9-1
 Description: X11 Input extension library
 Homepage: https://www.x.org
 Depends: libxext, x11-proto, libxfixes, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxi_1.7.9_arm.deb
-Size: 20028
-SHA256: 1dbb650c23f51e3ed4996581bc3186cc1e3b3edc0ea14ab773402a4fb5635519
+Filename: dists/termux/x-gui/binary-arm/libxi_1.7.9-1_arm.deb
+Size: 20040
+SHA256: 8c4913444cccb1323337505ee89837498dd03ebaa52d2814ed43532629e96561
 
 Package: libxinerama-dev
 Architecture: arm
 Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.3-1
 Description: Development files for libxinerama
 Homepage: https://www.x.org
 Depends: libxinerama
-Filename: dists/termux/x-gui/binary-arm/libxinerama-dev_1.1.3_arm.deb
-Size: 4136
-SHA256: 959e1d9b71358722fced0c224c3184df5a0ffe4843fdfc06dd410a75689f0005
+Filename: dists/termux/x-gui/binary-arm/libxinerama-dev_1.1.3-1_arm.deb
+Size: 4164
+SHA256: 108a8167f73023a8999c7809ba0af0e826ec93ad7d4030969183557ac573b77e
 
 Package: libxinerama
 Architecture: arm
 Installed-Size: 16
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.3-1
 Description: X11 Xinerama extension library
 Homepage: https://www.x.org
 Depends: libxext, x11-proto
-Filename: dists/termux/x-gui/binary-arm/libxinerama_1.1.3_arm.deb
-Size: 2748
-SHA256: d8e003325e396339da8d1a3791ede72324df0be71ebf88211341685920358c5f
+Filename: dists/termux/x-gui/binary-arm/libxinerama_1.1.3-1_arm.deb
+Size: 2756
+SHA256: e4947a6584fc0611f86e8086e4f21eb090df981e33405f64dd798f4dcff08733
 
 Package: libxkbfile-dev
 Architecture: arm
 Installed-Size: 52
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.9
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.9-1
 Description: Development files for libxkbfile
 Homepage: 
 Depends: libxkbfile
-Filename: dists/termux/x-gui/binary-arm/libxkbfile-dev_1.0.9_arm.deb
-Size: 7636
-SHA256: 974288c64558e7ba8d8e9a0f10f3995607bf3412dbfec594f40dc0b89bd796bc
+Filename: dists/termux/x-gui/binary-arm/libxkbfile-dev_1.0.9-1_arm.deb
+Size: 7652
+SHA256: fb347f2518e34d7444816f44099c76c39cff98f5eee3f0e969de94ca9c507696
 
 Package: libxkbfile
 Architecture: arm
-Installed-Size: 100
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.9
+Installed-Size: 104
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.9-1
 Description: X11 keyboard file manipulation library
 Homepage: 
 Depends: libx11, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxkbfile_1.0.9_arm.deb
-Size: 46824
-SHA256: fbafc27a585b38d3deb00cceebd2421cfe03b25c0cbe7cff4380e60c315b0e98
+Filename: dists/termux/x-gui/binary-arm/libxkbfile_1.0.9-1_arm.deb
+Size: 48124
+SHA256: 27587b7936e46da717728df34e832a82885015c42b909acdd7fc58eab3d16bce
 
 Package: libxmu-dev
 Architecture: arm
 Installed-Size: 120
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.2-1
 Description: Development files for libxmu
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libxmu
-Filename: dists/termux/x-gui/binary-arm/libxmu-dev_1.1.1_arm.deb
-Size: 12000
-SHA256: 9f44cf8611a1fd7d40122d1779c68965e2557f71c1e8a44c816477e834a011e1
+Filename: dists/termux/x-gui/binary-arm/libxmu-dev_1.1.2-1_arm.deb
+Size: 12024
+SHA256: e40e10c334524dae60791a1a7956ac4d1059ea9eb56e61c268e799f0f763293b
 
 Package: libxmu
 Architecture: arm
-Installed-Size: 92
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1
+Installed-Size: 96
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.2-1
 Description: X11 miscellaneous micro-utility library
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libxt, libxext, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxmu_1.1.1_arm.deb
-Size: 32644
-SHA256: 4b53cbc639b233ceadfb24817f75732271503136c5a8b101a5312bf9bc644a0a
+Filename: dists/termux/x-gui/binary-arm/libxmu_1.1.2-1_arm.deb
+Size: 33840
+SHA256: 97d14faa1e74703cb72ea15018aac54d3157b7c011465099575f75686f6e9cb4
 
 Package: libxpm-dev
 Architecture: arm
 Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.12
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.5.12-1
 Description: Development files for libxpm
 Homepage: https://www.x.org
 Depends: libxpm
-Filename: dists/termux/x-gui/binary-arm/libxpm-dev_3.5.12_arm.deb
-Size: 5052
-SHA256: 566de5f784cc7c0c7574a03de2fed9082281eaa02e805196fed16c3dc8f810b1
+Filename: dists/termux/x-gui/binary-arm/libxpm-dev_3.5.12-1_arm.deb
+Size: 5080
+SHA256: 513081f4c4b902d889556140d9a3a2e94494ef56ddcebf13e6686d8f177722b4
 
 Package: libxpm
 Architecture: arm
-Installed-Size: 104
-Maintainer: Fredrik Fornwall @fornwall
-Version: 3.5.12
+Installed-Size: 100
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 3.5.12-1
 Description: X11 pixmap library
 Homepage: https://www.x.org
 Depends: libxt, libxext, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxpm_3.5.12_arm.deb
-Size: 33828
-SHA256: 903c38094f31e475a67c3b77e66a4c0acc9c3133b0394d5cad53612f865506ed
+Filename: dists/termux/x-gui/binary-arm/libxpm_3.5.12-1_arm.deb
+Size: 35072
+SHA256: 14749aec207e93e5cc0deeccd5d80f99cd9b9a5a4e5deac0b2981020d1895730
 
 Package: libxrender-dev
 Architecture: arm
 Installed-Size: 20
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.10
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.9.10-1
 Description: Development files for libxrender
 Homepage: https://www.x.org
 Depends: libxrender
-Filename: dists/termux/x-gui/binary-arm/libxrender-dev_0.9.10_arm.deb
-Size: 4016
-SHA256: eadd9bcff5e0652ea110a060e05338a4ed93e643f1de665bc595c781db2f8312
+Filename: dists/termux/x-gui/binary-arm/libxrender-dev_0.9.10-1_arm.deb
+Size: 4040
+SHA256: 26483a4899c63c3f607e95d51c48e0278cad55bd809f3d95a936b6e09e13208c
 
 Package: libxrender
 Architecture: arm
 Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.9.10
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.9.10-1
 Description: X Rendering Extension client library
 Homepage: https://www.x.org
 Depends: libx11, x11-proto
-Filename: dists/termux/x-gui/binary-arm/libxrender_0.9.10_arm.deb
-Size: 13340
-SHA256: 1f2bddc203ce5de4af1097e81b6e0ce08ccb61b5fc7e8f598b865414774e16e0
+Filename: dists/termux/x-gui/binary-arm/libxrender_0.9.10-1_arm.deb
+Size: 13048
+SHA256: 82e0dec2f1c303b8456f72237f82a2906fc030c3f23b7e68c168f11b5bcac26b
 
 Package: libxshmfence-dev
 Architecture: arm
 Installed-Size: 8
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.2-1
+Version: 1.3
 Description: Development files for libxshmfence
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libxshmfence
-Filename: dists/termux/x-gui/binary-arm/libxshmfence-dev_1.2-1_arm.deb
-Size: 1880
-SHA256: 7d9fccd100044187ee08a97f7a8d00b4634acf82866bf9865853ee6cfe4f8d55
+Filename: dists/termux/x-gui/binary-arm/libxshmfence-dev_1.3_arm.deb
+Size: 1884
+SHA256: a790c840f0280d3b6cfef96c19f19ba9657811a0b535aa4c5e4956266e46be98
 
 Package: libxshmfence
 Architecture: arm
-Installed-Size: 16
+Installed-Size: 8
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.2-1
-Description: FIXME:Add description
-Homepage: https://www.x.org
-Filename: dists/termux/x-gui/binary-arm/libxshmfence_1.2-1_arm.deb
-Size: 2412
-SHA256: 874d6107feab109e6641ec44ec7a3df8e21ffba93f857b2531b161cab99b18bb
+Version: 1.3
+Description: A library that exposes a event API on top of Linux futexes
+Homepage: https://xorg.freedesktop.org/
+Filename: dists/termux/x-gui/binary-arm/libxshmfence_1.3_arm.deb
+Size: 2424
+SHA256: 217633727908ddbdd68abe42f32d63e1adfdb05160d734266d3a82550873682e
 
 Package: libxt-dev
 Architecture: arm
-Installed-Size: 1672
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Installed-Size: 1544
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.5
 Description: Development files for libxt
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libxt
-Filename: dists/termux/x-gui/binary-arm/libxt-dev_1.1.3_arm.deb
-Size: 79052
-SHA256: 372fc5c451a3414fbd4530c7b86131857859c7b38512090e2f3cb6c18396069d
+Filename: dists/termux/x-gui/binary-arm/libxt-dev_1.1.5_arm.deb
+Size: 78504
+SHA256: 4408aa42a7c1df388425bef51c74924f7f1dfc580beec2919a5933c78e0c7c44
 
 Package: libxt
 Architecture: arm
-Installed-Size: 208
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.3
+Installed-Size: 216
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.5
 Description: X11 toolkit intrinsics library
-Homepage: https://www.x.org
+Homepage: https://xorg.freedesktop.org/
 Depends: libx11, libsm, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/libxt_1.1.3_arm.deb
-Size: 98628
-SHA256: eec56984895169964435b1b022b11a423dc72061600df46caf175ba3f8caa555
+Filename: dists/termux/x-gui/binary-arm/libxt_1.1.5_arm.deb
+Size: 101924
+SHA256: 103082e0b222ec7a560024518da0d25f5958e1afe47508c0c2ec1f52bd2b7a7b
 
 Package: lua51
 Architecture: arm
-Installed-Size: 176
-Maintainer: Fredrik Fornwall @fornwall
-Version: 5.1.5-2
+Installed-Size: 180
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 5.1.5-3
 Description: Simple, extensible, embeddable programming language
 Homepage: https://www.lua.org/
 Depends: readline
-Filename: dists/termux/x-gui/binary-arm/lua51_5.1.5-2_arm.deb
-Size: 59380
-SHA256: 9a3dae7d4c9d79bde210efbc8fbc9890fb66c24f0f29669cece363c9d0852e6a
+Filename: dists/termux/x-gui/binary-arm/lua51_5.1.5-3_arm.deb
+Size: 60604
+SHA256: 6b00ccf4c850704ddca21b78b8388c700e3f7542d2372defa77033584623d192
 
 Package: luit
 Architecture: arm
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1-1
+Installed-Size: 36
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.1-2
 Description: Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
 Homepage: https://xorg.freedesktop.org/
 Depends: libfontenc, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/luit_1.1.1-1_arm.deb
-Size: 17616
-SHA256: 6caa0e71c1ab567ecc0d23399caa6f5f32c45f4ecf521d841f6d8433edbe2b1e
+Filename: dists/termux/x-gui/binary-arm/luit_1.1.1-2_arm.deb
+Size: 14904
+SHA256: 813557ab9d6da64395b8ba8d2d7ac6b6e865fba9d0c262ae9f8c20984a691191
 
 Package: ndk-sysroot-x
 Architecture: arm
 Installed-Size: 16184
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 16-8
+Version: 16-9
 Description: System header and library files from the Android NDK needed for compiling C programs
 Homepage: https://developer.android.com/tools/sdk/ndk/index.html
 Depends: libandroid-support-dev
 Conflicts: libutil-dev, ndk-sysroot, libgcc
 Replaces: libutil-dev, ndk-sysroot, libgcc
 Provides: libutil-dev, ndk-sysroot, libgcc
-Filename: dists/termux/x-gui/binary-arm/ndk-sysroot-x_16-8_arm.deb
-Size: 1064556
-SHA256: d744419f6dbad8c2cdaa121559a8109bad66ac87c46e22f693f2c0be5501bc86
+Filename: dists/termux/x-gui/binary-arm/ndk-sysroot-x_16-9_arm.deb
+Size: 1064340
+SHA256: 43d66cd0b414acd1b5702dd66c00e99e3e85b0817d6c246fbe54b9e64cadef67
 
 Package: openbox-dev
 Architecture: arm
 Installed-Size: 116
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 3.6.1-6
+Version: 3.6.1-9
 Description: Development files for openbox
 Homepage: http://openbox.org
 Depends: openbox
-Filename: dists/termux/x-gui/binary-arm/openbox-dev_3.6.1-6_arm.deb
+Filename: dists/termux/x-gui/binary-arm/openbox-dev_3.6.1-9_arm.deb
 Size: 13440
-SHA256: 68846157a334ef275066717444c06fbb682e13a1754d774c9a23a51674c1f231
+SHA256: a5a1a8b7389d3d869eca2455f25b50cecf4c17c22a4a1c5cf72a9c533ecd5bf5
 
 Package: openbox
 Architecture: arm
 Installed-Size: 824
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 3.6.1-6
+Version: 3.6.1-9
 Description: Highly configurable and lightweight X11 window manager
 Homepage: http://openbox.org
 Depends: bash, imlib2, librsvg, libsm, libxcursor, libxinerama, libxml2, pangoxft, startup-notification
 Recommends: feh, pypanel, xcompmgr
-Filename: dists/termux/x-gui/binary-arm/openbox_3.6.1-6_arm.deb
-Size: 377104
-SHA256: d8ef635036e4e56dcc112f4196e93bde9886b644a77b1b83f0b41e0e7e405f34
+Filename: dists/termux/x-gui/binary-arm/openbox_3.6.1-9_arm.deb
+Size: 377036
+SHA256: 182b6c20a9513b8c32bce1a039de8007e61f9615161d2dbe887fd3bea42939d2
 
 Package: pangoxft-dev
 Architecture: arm
 Installed-Size: 340
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.40.13-1
+Version: 1.42.1-1
 Description: Development files for pangoxft
 Homepage: http://www.pango.org/
 Depends: pangoxft,libcairo-x-dev, libpixman-dev, fontconfig-dev, harfbuzz-dev
-Filename: dists/termux/x-gui/binary-arm/pangoxft-dev_1.40.13-1_arm.deb
-Size: 42540
-SHA256: 9ab3f94dfa599260f29499aa7468666bf6ff34f013767b9d8e5c173ac8dc89a5
+Filename: dists/termux/x-gui/binary-arm/pangoxft-dev_1.42.1-1_arm.deb
+Size: 42692
+SHA256: 085871ddc97403a1d765bca6c4c88f918ecef9daea4f1a86dcc295f224803177
 
 Package: pangoxft
 Architecture: arm
-Installed-Size: 368
+Installed-Size: 344
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.40.13-1
+Version: 1.42.1-1
 Description: Library for laying out and rendering text (with X)
 Homepage: http://www.pango.org/
-Depends: fontconfig, glib, harfbuzz, libcairo-x, libxft
+Depends: fontconfig, glib, harfbuzz, libcairo-x, libxft, fribidi
 Conflicts: pango, pango-x, pango-dev
 Replaces: pango, pango-x
 Provides: pango, pango-x
-Filename: dists/termux/x-gui/binary-arm/pangoxft_1.40.13-1_arm.deb
-Size: 130180
-SHA256: 8184efbbb9a8232112090dcdd49d84c6adee3968766b069180b1c0785d4927b6
+Filename: dists/termux/x-gui/binary-arm/pangoxft_1.42.1-1_arm.deb
+Size: 128696
+SHA256: d3d3163ce74f470edd13e592382e4308ed58f730313da8abb629a0726687bc2f
 
 Package: pypanel
 Architecture: arm
 Installed-Size: 116
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.4-2
+Version: 2.4-4
 Description: A lightweight panel/taskbar for X11 window managers written in python.
 Homepage: http://pypanel.sourceforge.net/
 Depends: imlib2, libxft, python2, python2-xlib, libx11
-Filename: dists/termux/x-gui/binary-arm/pypanel_2.4-2_arm.deb
-Size: 27008
-SHA256: c936c58338899f16f316e9b4aa733cc95c04c4880343c2aa323456055f88fecd
+Filename: dists/termux/x-gui/binary-arm/pypanel_2.4-4_arm.deb
+Size: 26992
+SHA256: 6a97d8bbcce4b74c86df777e3dbca85bbec27342324a3b1c9417e2dcf1bc621f
 
 Package: qemu-system
 Architecture: arm
-Installed-Size: 44604
+Installed-Size: 44680
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 2.11.0
+Version: 2.11.0-1
 Description: A generic and open source machine emulator and virtualizer
 Homepage: https://www.qemu.org
 Depends: glib, libandroid-support, libbz2, libcurl, libgnutls, liblzo, libnettle, libpixman, libpng, libsdl, libutil, ncurses, libssh2, libseccomp, libjpeg-turbo, libandroid-shmem
-Filename: dists/termux/x-gui/binary-arm/qemu-system_2.11.0_arm.deb
-Size: 7848964
-SHA256: 941d63e415f8e4c618ab01af93ff73ec83462d12f5691be7e4a7277c341b8715
+Filename: dists/termux/x-gui/binary-arm/qemu-system_2.11.0-1_arm.deb
+Size: 7963324
+SHA256: ff64feb282c868b4bfcf9af87e61a8840cb2cf8baff49dd5ead75eb495f9596a
 
 Package: shared-mime-info
 Architecture: arm
 Installed-Size: 2252
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.9
+Version: 1.9-1
 Description: Freedesktop.org Shared MIME Info
 Homepage: https://freedesktop.org/Software/shared-mime-info
 Depends: glib, libxml2
-Filename: dists/termux/x-gui/binary-arm/shared-mime-info_1.9_arm.deb
-Size: 241616
-SHA256: 1c6e534093cb2a7f9b45d28850b0a28791e0048cbc6e1e0d268582adaba27501
+Filename: dists/termux/x-gui/binary-arm/shared-mime-info_1.9-1_arm.deb
+Size: 241688
+SHA256: 03441aab2403cada3f22165b71b0869f44b1e7d67db1eb584e46ed89105e754b
 
 Package: startup-notification-dev
 Architecture: arm
 Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.12-1
 Description: Development files for startup-notification
 Homepage: https://www.freedesktop.org
 Depends: startup-notification
-Filename: dists/termux/x-gui/binary-arm/startup-notification-dev_0.12_arm.deb
-Size: 3940
-SHA256: 1f20033b0a49e2649dc57bb7f4c6dd8e54a2cd962cc85b9a3cfec50202517509
+Filename: dists/termux/x-gui/binary-arm/startup-notification-dev_0.12-1_arm.deb
+Size: 3960
+SHA256: 9b6553b2e8a1df95a70e04db01aee63e80adf4293aa9cec20b0ea30eeb95b29d
 
 Package: startup-notification
 Architecture: arm
 Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.12
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.12-1
 Description: Utility libraries for XC Binding
 Homepage: https://www.freedesktop.org
 Depends: libx11, xcb-util
-Filename: dists/termux/x-gui/binary-arm/startup-notification_0.12_arm.deb
-Size: 9104
-SHA256: e9206df5a3938fa6a03fb2ddf748a4e293930b775ec2466a617102ba099f6e6c
+Filename: dists/termux/x-gui/binary-arm/startup-notification_0.12-1_arm.deb
+Size: 9208
+SHA256: 2309b4210f27359a8ed875ac7d906dd76480e788a77f927ad1afc04e4f56200a
 
 Package: the-powder-toy
 Architecture: arm
 Installed-Size: 1516
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 92.5
+Version: 92.5-2
 Description: The Powder Toy is a free physics sandbox game
 Homepage: http://powdertoy.co.uk/
 Depends: fftw, libbz2, liblua51, libsdl, libx11
-Filename: dists/termux/x-gui/binary-arm/the-powder-toy_92.5_arm.deb
-Size: 526816
-SHA256: 25683e887161e886a9f779fcafa4cb0c3781a6a2fe7d9b1c14bf9503120889c8
+Filename: dists/termux/x-gui/binary-arm/the-powder-toy_92.5-2_arm.deb
+Size: 526072
+SHA256: 7ccac9b7d0a63d8fd7946f434861985a61040ac991b12b6e989153f75c3bd3e4
 
 Package: tigervnc
 Architecture: arm
-Installed-Size: 2116
+Installed-Size: 2120
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.8.0-2
+Version: 1.8.0-3
 Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
 Homepage: http://www.tigervnc.org
 Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage
-Filename: dists/termux/x-gui/binary-arm/tigervnc_1.8.0-2_arm.deb
-Size: 756620
-SHA256: ea7722d109f3fd280fcf533f1497b8c931c559b4ef55d4255fed5a2b4dfda6d9
+Filename: dists/termux/x-gui/binary-arm/tigervnc_1.8.0-3_arm.deb
+Size: 758084
+SHA256: 42da8bcf0a3d89436a51cf71fcbaff496c4e5ac9af082480bb64b5c45f64e9f2
 
 Package: xbitmaps-dev
 Architecture: arm
 Installed-Size: 416
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.2
 Description: Development files for xbitmaps
 Homepage: https://xorg.freedesktop.org/
 Depends: xbitmaps
-Filename: dists/termux/x-gui/binary-arm/xbitmaps-dev_1.1.1_arm.deb
-Size: 18268
-SHA256: a9063b405d245f64f2f35103938f69a57798ccd202d586d478ef57715d3f2f59
+Filename: dists/termux/x-gui/binary-arm/xbitmaps-dev_1.1.2_arm.deb
+Size: 18324
+SHA256: ddb6d4b04408a36d3e069808c7ddb2dba73f948da4df3616c2a160b3987826dc
 
 Package: xbitmaps
 Architecture: arm
 Installed-Size: 4
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.2
 Description: X.org Bitmap files
 Homepage: https://xorg.freedesktop.org/
 Depends: xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/xbitmaps_1.1.1_arm.deb
-Size: 984
-SHA256: 7089b299765a67792fb4a021527603dcf6ade0a2dae3521fd92cdb4eb328ab8e
+Filename: dists/termux/x-gui/binary-arm/xbitmaps_1.1.2_arm.deb
+Size: 996
+SHA256: 4be0046fe362cd9701a5a93df5e29b333be1228d8857c0a0e7ff16977edc5010
 
 Package: xcb-util-dev
 Architecture: arm
 Installed-Size: 36
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.0
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.4.0-1
 Description: Development files for xcb-util
 Homepage: https://xcb.freedesktop.org
 Depends: xcb-util
-Filename: dists/termux/x-gui/binary-arm/xcb-util-dev_0.4.0_arm.deb
-Size: 3892
-SHA256: 7af3e1e1b0b6c8b7a6465e02348bb772b54be97881cb7fcc0cd97fc15cf6da67
+Filename: dists/termux/x-gui/binary-arm/xcb-util-dev_0.4.0-1_arm.deb
+Size: 3912
+SHA256: 65d6f7f74e61458f9ab44e1e113532a087f21022995b43f33cc19eef0f6f4eb9
 
 Package: xcb-util
 Architecture: arm
-Installed-Size: 28
-Maintainer: Fredrik Fornwall @fornwall
-Version: 0.4.0
+Installed-Size: 24
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.4.0-1
 Description: Utility libraries for XC Binding
 Homepage: https://xcb.freedesktop.org
 Depends: libxcb, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/xcb-util_0.4.0_arm.deb
-Size: 7616
-SHA256: 9b4b4c4cac0dfbd9ecbd8ab0c5f168f9a342d32fc01d78e5a7cc05f1d5d71079
+Filename: dists/termux/x-gui/binary-arm/xcb-util_0.4.0-1_arm.deb
+Size: 4680
+SHA256: 6e08b9c5e39829eebecbf7f47a291a07768ec7c17092367c7971e0dd95ec176d
 
 Package: xcbproto
 Architecture: arm
-Installed-Size: 972
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.12
+Installed-Size: 996
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.13
 Description: XML-XCB protocol descriptions
-Homepage: https://www.x.org
-Filename: dists/termux/x-gui/binary-arm/xcbproto_1.12_arm.deb
-Size: 98504
-SHA256: 64a5c87140794734614078323972212282145b021e40e28641623a1505cea092
+Homepage: https://xcb.freedesktop.org/
+Filename: dists/termux/x-gui/binary-arm/xcbproto_1.13_arm.deb
+Size: 101440
+SHA256: 0a3832f904f627bcd2402da0be98181976dbee18070e707aa2bffa8e1d54c9e9
 
 Package: xclock
 Architecture: arm
 Installed-Size: 56
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.7
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.7-1
 Description: FIXME:Add description
 Homepage: https://www.x.org
 Depends: libx11, libxmu, libxaw, libxkbfile, libxrender, libxft, libandroid-support, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/xclock_1.0.7_arm.deb
-Size: 23404
-SHA256: 40d132fa677d460d12d10b1ea2b659d256567c29804dcd565f26a19ed5476a80
+Filename: dists/termux/x-gui/binary-arm/xclock_1.0.7-1_arm.deb
+Size: 23728
+SHA256: bcfc9633d88917657babf075aa1165551773e9dd7233d50020747d2a91d7f3dc
 
 Package: xcompmgr
 Architecture: arm
 Installed-Size: 32
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.1.7
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.1.7-1
 Description: Composite Window-effects manager for X.org
 Homepage: https://xorg.freedesktop.org/
 Depends: libxcomposite, libxdamage, libxrender, libxext
-Filename: dists/termux/x-gui/binary-arm/xcompmgr_1.1.7_arm.deb
-Size: 15040
-SHA256: cb0b97e856c26fa195e2cf4bbbaae7d5c97cb0e4d0f1a5fa1f54fa86bed6c73d
+Filename: dists/termux/x-gui/binary-arm/xcompmgr_1.1.7-1_arm.deb
+Size: 15668
+SHA256: 762851dd24abe6845d06d3b7b3a793f4220e8013f9c8fec888185bfdf46a7974
 
 Package: xorg-fonts-lite
 Architecture: arm
 Installed-Size: 18112
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0-termux-1
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-2
 Description: Fonts for X server (only basic)
 Homepage: http://openbox.org
-Filename: dists/termux/x-gui/binary-arm/xorg-fonts-lite_1.0-termux-1_arm.deb
-Size: 8339284
-SHA256: 601342a7c32ed08c42cbe9986e25cfb6643620cb36dc6cc0ef541eedf5e79898
+Filename: dists/termux/x-gui/binary-arm/xorg-fonts-lite_1.0-termux-2_arm.deb
+Size: 8340560
+SHA256: 23efa0e35298d546ad61355ff036891abc41a605f658333eeb606d5d43c99bd3
 
 Package: xorg-server
 Architecture: arm
-Installed-Size: 1076
+Installed-Size: 1080
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.19.6
+Version: 1.19.6-1
 Description: FIXME:Add description
 Homepage: 
 Depends: libandroid-shmem, libx11, libxfont2, libxkbfile, libxau, libpixman, openssl, xorg-xkbcomp, libxinerama
-Filename: dists/termux/x-gui/binary-arm/xorg-server_1.19.6_arm.deb
-Size: 532592
-SHA256: 4c9ae52790ee06c1da7ac01bba8630d5c1ec4b833dc2ef3d76ee804e710ea797
+Filename: dists/termux/x-gui/binary-arm/xorg-server_1.19.6-1_arm.deb
+Size: 533292
+SHA256: d3670f102483327093a096bbb882dec322d127e8f19a7eed231d13cf45fda1d7
 
 Package: xorg-xauth
 Architecture: arm
-Installed-Size: 40
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.0.10
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0.10-1
 Description: X.Org authorization settings program
 Homepage: https://xorg.freedesktop.org
 Depends: libxmu, xorg-util-macros
-Filename: dists/termux/x-gui/binary-arm/xorg-xauth_1.0.10_arm.deb
-Size: 16204
-SHA256: 68e79425548cc2943cf76fa36ae54ec024fd20b35271dbc42b4331140ce3dc61
+Filename: dists/termux/x-gui/binary-arm/xorg-xauth_1.0.10-1_arm.deb
+Size: 16776
+SHA256: fc1b7e78261a536cfaa865e92e6ef049fb45c2c52cb8bfe2314f36bbfb69e11e
 
 Package: xorg-xkbcomp
 Architecture: arm
 Installed-Size: 148
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.4.0
-Description: FIXME:Add description
-Homepage: https://www.x.org
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.4.1
+Description: X Keyboard description compiler
+Homepage: https://xorg.freedesktop.org/
 Depends: libxkbfile, xkeyboard-config
-Filename: dists/termux/x-gui/binary-arm/xorg-xkbcomp_1.4.0_arm.deb
-Size: 67596
-SHA256: 9eceee206720700c4dcb07b0e0895dd94a55cf0135d41b1abf3a2d836a7e1958
+Filename: dists/termux/x-gui/binary-arm/xorg-xkbcomp_1.4.1_arm.deb
+Size: 68068
+SHA256: ea99f109d7ece26ef9d83a9c082748a3009b1a2d265d9f104f266c19db544116
 
 Package: xterm
 Architecture: arm
-Installed-Size: 788
-Maintainer: Fredrik Fornwall @fornwall
-Version: 330-1
+Installed-Size: 808
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 330-2
 Description: X Terminal Emulator
 Homepage: http://invisible-island.net/xterm/
 Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
-Filename: dists/termux/x-gui/binary-arm/xterm_330-1_arm.deb
-Size: 255976
-SHA256: 120bcbd8b178654b2e4b05460ea982b722fc88067639aab160af29d83bd38d9c
+Filename: dists/termux/x-gui/binary-arm/xterm_330-2_arm.deb
+Size: 264000
+SHA256: 1be256d62ee5ee1bedc0881df3ab7004343c62fbb83701ebaa63610ca10e0e9c
 
 Package: xtrans
 Architecture: arm
 Installed-Size: 220
-Maintainer: Fredrik Fornwall @fornwall
-Version: 1.3.5
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.3.5-1
 Description: X transport library
 Homepage: https://www.x.org
-Filename: dists/termux/x-gui/binary-arm/xtrans_1.3.5_arm.deb
-Size: 35840
-SHA256: 17d37df2727fa89766223b1ac0cb00b411154a6709450318b43c7f1cb6f721b4
+Filename: dists/termux/x-gui/binary-arm/xtrans_1.3.5-1_arm.deb
+Size: 35848
+SHA256: 121a42dc103098b10b82d07db3396e4edc642e6fb02fd390484d5717cc07114e
 
