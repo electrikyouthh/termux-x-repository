@@ -3,7 +3,7 @@ Version: 1
 Architectures: all aarch64 arm i686 x86_64
 Description: A repository of X/GUI packages for Termux
 Suite: termux
-Date: Tue, 10 Apr 2018 19:12:08 UTC
+Date: Tue, 10 Apr 2018 20:24:50 UTC
 SHA256:
  205a591e37057e3dc09561704f2c29e65569a88929bb0d0a1e1548a8c966a439 3776 x-gui/binary-all/Packages
  8e7a34c03210e6879e6a23aa56f0ff127ba05850552f113a7105c1d8c1e99f49 1340 x-gui/binary-all/Packages.xz
@@ -13,5 +13,5 @@ SHA256:
  50bc8c0b63e32e5326eab4dcd4996f14256bad64fea03da51226f8aa6d8ec27d 9328 x-gui/binary-arm/Packages.xz
  dfee11b9b15a2f52f21146c69cd442f6abfa3ecdb36f67ee230638f95d6de019 37686 x-gui/binary-i686/Packages
  bcbb3ccd5a64a8fb8f7d1889b751c85a96671542653ba0ee40a5c3b4914bf459 8060 x-gui/binary-i686/Packages.xz
- a3e00c681d0be5d1731ae46f20019887a012531f6e2d114dd72c12ee2683267a 35369 x-gui/binary-x86_64/Packages
- 5e73018648e177c8b94f2c3daf88cffd2070df6c494811eb0b4e835ff0b35ae7 7872 x-gui/binary-x86_64/Packages.xz
+ 576b7ea57516b369b916097fddbae1b2ef34be808be711eb185fff2825f1827a 38230 x-gui/binary-x86_64/Packages
+ c53e5aced55f44105d8f9958f688acea76dbd78de3b45164b5a5b0fbb6678aaa 8084 x-gui/binary-x86_64/Packages.xz

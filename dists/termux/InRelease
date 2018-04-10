@@ -6,7 +6,7 @@ Version: 1
 Architectures: all aarch64 arm i686 x86_64
 Description: A repository of X/GUI packages for Termux
 Suite: termux
-Date: Tue, 10 Apr 2018 19:12:08 UTC
+Date: Tue, 10 Apr 2018 20:24:50 UTC
 SHA256:
  205a591e37057e3dc09561704f2c29e65569a88929bb0d0a1e1548a8c966a439 3776 x-gui/binary-all/Packages
  8e7a34c03210e6879e6a23aa56f0ff127ba05850552f113a7105c1d8c1e99f49 1340 x-gui/binary-all/Packages.xz
@@ -16,21 +16,21 @@ SHA256:
  50bc8c0b63e32e5326eab4dcd4996f14256bad64fea03da51226f8aa6d8ec27d 9328 x-gui/binary-arm/Packages.xz
  dfee11b9b15a2f52f21146c69cd442f6abfa3ecdb36f67ee230638f95d6de019 37686 x-gui/binary-i686/Packages
  bcbb3ccd5a64a8fb8f7d1889b751c85a96671542653ba0ee40a5c3b4914bf459 8060 x-gui/binary-i686/Packages.xz
- a3e00c681d0be5d1731ae46f20019887a012531f6e2d114dd72c12ee2683267a 35369 x-gui/binary-x86_64/Packages
- 5e73018648e177c8b94f2c3daf88cffd2070df6c494811eb0b4e835ff0b35ae7 7872 x-gui/binary-x86_64/Packages.xz
+ 576b7ea57516b369b916097fddbae1b2ef34be808be711eb185fff2825f1827a 38230 x-gui/binary-x86_64/Packages
+ c53e5aced55f44105d8f9958f688acea76dbd78de3b45164b5a5b0fbb6678aaa 8084 x-gui/binary-x86_64/Packages.xz
 -----BEGIN PGP SIGNATURE-----
 
-iQIcBAEBCgAGBQJazQzEAAoJEEXylkEyVFeVBTcP/ivzNjuHkjg+R3ifMFSTdPP/
-Xcn3YoCQSBKZyB46Y3GR7KO8vKZfIy4KI+4sxUc0CvLhxTBvFH/c+jHOdye65pUS
-zsZLeoqEKkjH0BHti82spx7ABvzqj4DmveqLPOz8f7hlxkKqjHzNtnxgoix26Gtz
-n5ovKNCs24nTppOV9wBVaykZ2vwCYH/dZrUxmXn0PqwUWu0TOuwVAZzyW674cTiu
-vwmbSLCCftkIeGMqtSNhj207sq/aUyBmKKti3/TnYzePoJueHT9jI2iOD9f7na6M
-Pg4nRJZevmc3irGgeINb1PiJPnWn5cYHE214GaKzUyyVzP8p5pAIZiPKumEksMPR
-lPr/6+l4NcpJmOxO++mNM9f67EjlzlfGXnWToIorfyGX8wcvH8aDY0W5pKs6yYSc
-pQZPISiNJqYDsxjIrapiY6/wEneDD2f08FXCpWLffWOhTMnlhyNJqTyeKiTizoQD
-v6DpDuAh75kRAciUeRQsZCa6+a2AYJGVb04vIBz+zlKl+xj1XQPVam+kKMcv1ngD
-gH7g/Lp3x8+aFTbmQOMGd7oBWcgm9r5hyx/TMAuYVS3q1yVZFLvuYvsiNx7V9OyG
-W14i6h2AJ6IitZV21lv8c7BBG2+PBXvkT9rgMK50y7UJifF80Bo+eTvgKSzQNMj4
-j7ami4Noc6tgz6B9NMx2
-=Ayd9
+iQIcBAEBCgAGBQJazR3OAAoJEEXylkEyVFeVT6cP/3C7a3+pQIF7eOX0smxS/W7K
+vLLYeefboCnv7/4SN9xLfEymzKXofKPUrMxvSsTjjoKPJpnH79Nca91zsAPIMQ+s
+ibSBP4D6HLHfdz0LY4nHl/WrBNT5BwhP/gYOooZa/xlbPOwWmhcuX0d90BXj7rtN
+Vb+3+D9IwYtkjLfJqqXHD55j4Y65qXgnJ2pe20tAiLv8VOSDBFYPE0Zpctzh63aF
+uewZySKrMecdxglyg1oZQWe3uNwo2qsU249ZcrWQusvqqeLSAUbsyTyBun9Rgyhw
+1jJv93eFO+JfQkP14W335NmqfFJ62iN2wIjZL5wJ+TnM0JLLIlAX0vv1isgswy4s
+9SPxddnCgt2UA60qZHmftBUj4ZxwuYSeJUdZ4DtBF4u8FkaFtlWOQR/MSUoJ80mM
+m/35LeH/nwdG7TrFQzKkMDSMWNM3oFBxP0u5uWBP8kZRmSCXWeZfNRSUKB/XOJG9
+99OfcB2BQu9/Ftrq6vtta0rvoyE7Sf4pQkBGejGcHZnI6zO8Lug79y3AT1MfQZTO
+yWpdzscvD+Box4qkq/92lx91PU6ZcKm0yNGWCi7Xh1DUYOrppT8TsBXRZ4Oz91aA
+VUXiSiT5Md6g+uG5bK5p4zQ2Gsrvb6fb4+9nbOUZFRnLn46tCE2GdVJtQi0uD+9c
+03ERbm9gezKuIYr0PdJD
+=DcPu
 -----END PGP SIGNATURE-----
