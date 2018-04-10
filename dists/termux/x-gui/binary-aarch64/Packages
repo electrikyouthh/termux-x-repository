@@ -1097,15 +1097,15 @@ SHA256: 1d35ff4b22580168c855e80b171f685723615b32b6acc22655d3944b4bd835b6
 
 Package: tigervnc
 Architecture: aarch64
-Installed-Size: 2764
+Installed-Size: 2748
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.8.0-3
+Version: 1.8.0-4
 Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
 Homepage: http://www.tigervnc.org
-Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage
-Filename: dists/termux/x-gui/binary-aarch64/tigervnc_1.8.0-3_aarch64.deb
-Size: 710256
-SHA256: f5edf5c831aa92383a8910d6e57ead59e507a6a03d23a18e72012f81819b0873
+Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage, libxshmfence
+Filename: dists/termux/x-gui/binary-aarch64/tigervnc_1.8.0-4_aarch64.deb
+Size: 703900
+SHA256: bf65c19c54dcf04cdebdffc9c7a47ff846b243d17d5846f69b2ca78cd188a342
 
 Package: xbitmaps-dev
 Architecture: aarch64
