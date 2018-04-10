@@ -1099,13 +1099,13 @@ Package: tigervnc
 Architecture: arm
 Installed-Size: 2120
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.8.0-3
+Version: 1.8.0-4
 Description: Suite of VNC servers. Based on the VNC 4 branch of TightVNC.
 Homepage: http://www.tigervnc.org
-Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage
-Filename: dists/termux/x-gui/binary-arm/tigervnc_1.8.0-3_arm.deb
-Size: 758084
-SHA256: 42da8bcf0a3d89436a51cf71fcbaff496c4e5ac9af082480bb64b5c45f64e9f2
+Depends: gettext, libandroid-shmem, libgcrypt, libgnutls, libjpeg-turbo, perl, libpixman, libx11, libxfont2, x11-proto, xorg-server, xorg-xauth, xtrans, xorg-util-macros, libxinerama, libxdamage, libxshmfence
+Filename: dists/termux/x-gui/binary-arm/tigervnc_1.8.0-4_arm.deb
+Size: 759420
+SHA256: 07387161ed8c346cb406241f95530fa693d5c069a9e56dc8339a80e58c48e057
 
 Package: xbitmaps-dev
 Architecture: arm
