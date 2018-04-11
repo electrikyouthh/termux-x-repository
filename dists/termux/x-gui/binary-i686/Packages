@@ -26,13 +26,13 @@ Package: dwm
 Architecture: i686
 Installed-Size: 44
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 6.1
+Version: 6.1-1
 Description: A dynamic window manager for X
 Homepage: http://dwm.suckless.org
-Depends: dmenu, st, freetype, libx11, libxft, libxinerama
-Filename: dists/termux/x-gui/binary-i686/dwm_6.1_i686.deb
-Size: 18324
-SHA256: a2b58763eafa751dc9708d882b4d447cb91e733ab2fda35d2cea4d6fbefce77e
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-i686/dwm_6.1-1_i686.deb
+Size: 18388
+SHA256: 7e9f540b18c46686ea4f14491b6670471adcb60606fd56fef13e3882025aba2b
 
 Package: feh
 Architecture: i686
@@ -1047,17 +1047,6 @@ Filename: dists/termux/x-gui/binary-i686/xcompmgr_1.1.7-1_i686.deb
 Size: 12816
 SHA256: 55f48f114ec1286d7cf9386c09e559e01330a9fd09db4e7fda50e9e8396469eb
 
-Package: xorg-fonts-lite
-Architecture: i686
-Installed-Size: 18112
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.0-termux-2
-Description: Fonts for X server (only basic)
-Homepage: http://openbox.org
-Filename: dists/termux/x-gui/binary-i686/xorg-fonts-lite_1.0-termux-2_i686.deb
-Size: 8339316
-SHA256: d5a1233e307ddb573bc001cb4bb6e6d86713b9141a84da1a11b2cfcb2135befc
-
 Package: xorg-server
 Architecture: i686
 Installed-Size: 1296
@@ -1098,13 +1087,13 @@ Package: xterm
 Architecture: i686
 Installed-Size: 872
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 330-2
+Version: 330-3
 Description: X Terminal Emulator
 Homepage: http://invisible-island.net/xterm/
-Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
-Filename: dists/termux/x-gui/binary-i686/xterm_330-2_i686.deb
-Size: 258688
-SHA256: 1a934633389c826feccea123a78291f644dbfb045fe4bb1208465a5cf02a46be
+Depends: libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-i686/xterm_330-3_i686.deb
+Size: 258736
+SHA256: 98692e86f3cb462996edf67afb2847d6feca193ca7bcd98d7c35198756a195c9
 
 Package: xtrans
 Architecture: i686

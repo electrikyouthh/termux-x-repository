@@ -50,13 +50,13 @@ Package: dwm
 Architecture: aarch64
 Installed-Size: 60
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 6.1
+Version: 6.1-1
 Description: A dynamic window manager for X
 Homepage: http://dwm.suckless.org
-Depends: dmenu, st, freetype, libx11, libxft, libxinerama
-Filename: dists/termux/x-gui/binary-aarch64/dwm_6.1_aarch64.deb
-Size: 18104
-SHA256: f962097707b07637062e676737554fafb85a12c7c9287d8babdef01f6be88411
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-aarch64/dwm_6.1-1_aarch64.deb
+Size: 18128
+SHA256: df95711e7d49b6f3917d868fc2627886f7447b46e124dc3376480037fbc06a0c
 
 Package: feh
 Architecture: aarch64
@@ -1226,17 +1226,6 @@ Filename: dists/termux/x-gui/binary-aarch64/xcompmgr_1.1.7-1_aarch64.deb
 Size: 11808
 SHA256: cb99269304a6f6afb6505ae9edc2e6c07166ab8d0253ce7849ec8e7eae335f68
 
-Package: xorg-fonts-lite
-Architecture: aarch64
-Installed-Size: 18112
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.0-termux-2
-Description: Fonts for X server (only basic)
-Homepage: http://openbox.org
-Filename: dists/termux/x-gui/binary-aarch64/xorg-fonts-lite_1.0-termux-2_aarch64.deb
-Size: 8339096
-SHA256: 9465243b7c1272fd6a761dcfc5ed54e4a7a71cf9cee9f9f0f7f0f23ae23cc5f0
-
 Package: xorg-server
 Architecture: aarch64
 Installed-Size: 1336
@@ -1275,15 +1264,15 @@ SHA256: 351f9adf7e2d665cbc23250ab0b624f2c7bfa741c88102f5f1befcb128be9ffc
 
 Package: xterm
 Architecture: aarch64
-Installed-Size: 972
+Installed-Size: 968
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 330-2
+Version: 330-3
 Description: X Terminal Emulator
 Homepage: http://invisible-island.net/xterm/
-Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
-Filename: dists/termux/x-gui/binary-aarch64/xterm_330-2_aarch64.deb
-Size: 252240
-SHA256: 7590108522e7015cdf209abf86e8c5138642bd9ffa4d846cf98e3f27190563fe
+Depends: libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-aarch64/xterm_330-3_aarch64.deb
+Size: 251588
+SHA256: d839af88a700693018f6a55f68a39a0a711cbbaa4b86f7a5f4099c07d1b347b3
 
 Package: xtrans
 Architecture: aarch64

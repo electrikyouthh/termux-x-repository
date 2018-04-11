@@ -26,13 +26,13 @@ Package: dwm
 Architecture: x86_64
 Installed-Size: 60
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 6.1
+Version: 6.1-1
 Description: A dynamic window manager for X
 Homepage: http://dwm.suckless.org
-Depends: dmenu, st, freetype, libx11, libxft, libxinerama
-Filename: dists/termux/x-gui/binary-x86_64/dwm_6.1_x86_64.deb
-Size: 20216
-SHA256: 19d9bd847ca0962666ae9af5ecc93ae5e6fb66e9f430f5575be801b913152ddf
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-x86_64/dwm_6.1-1_x86_64.deb
+Size: 20344
+SHA256: df027b549bf794f8ea0bf6054ecaf54c7909a0f140c2366826721a2aa4991b37
 
 Package: feh
 Architecture: x86_64
@@ -1047,17 +1047,6 @@ Filename: dists/termux/x-gui/binary-x86_64/xcompmgr_1.1.7-1_x86_64.deb
 Size: 13444
 SHA256: 6375fa16371ea64d6e47b943109e9957b91954f408099c8d852643bab5026948
 
-Package: xorg-fonts-lite
-Architecture: x86_64
-Installed-Size: 18112
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.0-termux-2
-Description: Fonts for X server (only basic)
-Homepage: http://openbox.org
-Filename: dists/termux/x-gui/binary-x86_64/xorg-fonts-lite_1.0-termux-2_x86_64.deb
-Size: 8339180
-SHA256: 3ed1e166c2667b208319b309e41949a3ae44150efeb0843c706f56bd34efb43f
-
 Package: xorg-server
 Architecture: x86_64
 Installed-Size: 1464
@@ -1098,13 +1087,13 @@ Package: xterm
 Architecture: x86_64
 Installed-Size: 1004
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 330-2
+Version: 330-3
 Description: X Terminal Emulator
 Homepage: http://invisible-island.net/xterm/
-Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
-Filename: dists/termux/x-gui/binary-x86_64/xterm_330-2_x86_64.deb
-Size: 277924
-SHA256: 04790cf9c0a34c739d3060a20925a0349635cca25373e917f94754dc5ca0920a
+Depends: libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-x86_64/xterm_330-3_x86_64.deb
+Size: 277800
+SHA256: ee2bbbecd01ad3125194d990ab007c0e0ff4a21f13c5c507db90b3d27bb9eb11
 
 Package: xtrans
 Architecture: x86_64

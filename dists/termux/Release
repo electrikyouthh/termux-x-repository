@@ -3,15 +3,15 @@ Version: 1
 Architectures: all aarch64 arm i686 x86_64
 Description: A repository of X/GUI packages for Termux
 Suite: termux
-Date: Wed, 11 Apr 2018 09:37:08 UTC
+Date: Wed, 11 Apr 2018 10:13:16 UTC
 SHA256:
- 205a591e37057e3dc09561704f2c29e65569a88929bb0d0a1e1548a8c966a439 3776 x-gui/binary-all/Packages
- 8e7a34c03210e6879e6a23aa56f0ff127ba05850552f113a7105c1d8c1e99f49 1340 x-gui/binary-all/Packages.xz
- 0ee9f9e4d085fcac97f5dd2b2891d18dd9b7cf60920cac1db99181a74b88ef50 46284 x-gui/binary-aarch64/Packages
- 7c2a0deba9525fbbb8ec43079ffdbb502d07e5aae301f13dec9ab09ff963eb14 9648 x-gui/binary-aarch64/Packages.xz
- 5d2e187cc9694215cb51b764d961b6afdeeca11f7de333682a5cfc2ac092b4fa 44985 x-gui/binary-arm/Packages
- 5ba89ec04f58bb299c359f777b3dfb5288b27243f63ee6bb782f047816416441 9612 x-gui/binary-arm/Packages.xz
- 212ccd16cd4c37e39c73a0eee739f5a1210631b2df2a4fc2dc3a9d54cf5bdeb6 38904 x-gui/binary-i686/Packages
- 5f5e9f3282905e64b8d7cc6e01bb141627586ff7739a40bb8e667869a4330ea5 8324 x-gui/binary-i686/Packages.xz
- 6432f6fef47947227c7e0de3ecc7c95ac4fc1eadd34d1cb270322dd714a74a37 39466 x-gui/binary-x86_64/Packages
- b0540185ada1bb72577af1338d00a59c1fe1ef7567e95c93340bc406dcffa6e7 8348 x-gui/binary-x86_64/Packages.xz
+ 9d784746b942ed46b5a23253fd0331f0ac756d32cd4d11d86f6d54965045d71c 4192 x-gui/binary-all/Packages
+ c3f47d12bb10da2863f78bacecdf1b4f25594c6930d7257820a67c367bff6c57 1456 x-gui/binary-all/Packages.xz
+ 25b6b49f6aba19081d9bb5edb660e373eaefca3ac7574936ca442b6adadac09f 45885 x-gui/binary-aarch64/Packages
+ 26cdc4d80cbfab0dc26f7f60e35a092a9c9601bd133b31b06b717eb87379aa77 9576 x-gui/binary-aarch64/Packages.xz
+ 48a173848507e14b3b82f146f10d072fb38a6c05eb9b947114b5c6ea0079b7ba 44598 x-gui/binary-arm/Packages
+ fd56f9aca5b71cb9eb8ea36e01bd73043ffd93a2da48ba7c4b74e1703dc4b59f 9528 x-gui/binary-arm/Packages.xz
+ 6aedd2085fa4929bc578afa298c0b3f0bc9861ceeb2ece683972358637a5ee35 38514 x-gui/binary-i686/Packages
+ 47f5cbd6115a8fc7db27bdf6dbe7d53caf9f7e1375c77458b2dc02cb3c02eed5 8236 x-gui/binary-i686/Packages.xz
+ 0059222e36adaf91d9e89e3844ddc3a5ad5a6779209cfdc4fd570886d33c297d 39070 x-gui/binary-x86_64/Packages
+ 031863fbb74c5c98a0f090c2f10dd359308bd40014410eeb8648d92b18e92c0b 8268 x-gui/binary-x86_64/Packages.xz

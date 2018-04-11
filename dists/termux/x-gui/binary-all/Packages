@@ -96,6 +96,18 @@ Filename: dists/termux/x-gui/binary-all/xkeyboard-config_2.20_all.deb
 Size: 294752
 SHA256: 7fb5304442e5735310cdf7091758ba7a9306dcdbfceba69f22761a3f0b9bb909
 
+Package: xorg-fonts-lite
+Architecture: all
+Installed-Size: 18112
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 1.0-termux-3
+Description: Fonts for X server (only basic)
+Homepage: http://openbox.org
+Depends: fontconfig-utils
+Filename: dists/termux/x-gui/binary-all/xorg-fonts-lite_1.0-termux-3_all.deb
+Size: 8338708
+SHA256: 492493ecfd08d98328dc1aed71e239188977ad645a7e82e0ed336f853593ed01
+
 Package: xorg-util-macros
 Architecture: all
 Installed-Size: 92

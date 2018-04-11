@@ -50,13 +50,13 @@ Package: dwm
 Architecture: arm
 Installed-Size: 56
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 6.1
+Version: 6.1-1
 Description: A dynamic window manager for X
 Homepage: http://dwm.suckless.org
-Depends: dmenu, st, freetype, libx11, libxft, libxinerama
-Filename: dists/termux/x-gui/binary-arm/dwm_6.1_arm.deb
-Size: 21324
-SHA256: a834efdbd0fcd58d2a06ebd956f5ec4ddbbe379056063e8ef93750e11f0b25c1
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-arm/dwm_6.1-1_arm.deb
+Size: 21340
+SHA256: 2a4f871eeee9849bc691e856217d6f7736eb8416fbe7ea91a0fa0ec22e7670c1
 
 Package: feh
 Architecture: arm
@@ -1226,17 +1226,6 @@ Filename: dists/termux/x-gui/binary-arm/xcompmgr_1.1.7-1_arm.deb
 Size: 15668
 SHA256: 762851dd24abe6845d06d3b7b3a793f4220e8013f9c8fec888185bfdf46a7974
 
-Package: xorg-fonts-lite
-Architecture: arm
-Installed-Size: 18112
-Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 1.0-termux-2
-Description: Fonts for X server (only basic)
-Homepage: http://openbox.org
-Filename: dists/termux/x-gui/binary-arm/xorg-fonts-lite_1.0-termux-2_arm.deb
-Size: 8340560
-SHA256: 23efa0e35298d546ad61355ff036891abc41a605f658333eeb606d5d43c99bd3
-
 Package: xorg-server
 Architecture: arm
 Installed-Size: 1080
@@ -1277,13 +1266,13 @@ Package: xterm
 Architecture: arm
 Installed-Size: 808
 Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
-Version: 330-2
+Version: 330-3
 Description: X Terminal Emulator
 Homepage: http://invisible-island.net/xterm/
-Depends: fontconfig-utils, libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
-Filename: dists/termux/x-gui/binary-arm/xterm_330-2_arm.deb
-Size: 264000
-SHA256: 1be256d62ee5ee1bedc0881df3ab7004343c62fbb83701ebaa63610ca10e0e9c
+Depends: libxaw, libxft, libxkbfile, luit, ncurses, xbitmaps, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-arm/xterm_330-3_arm.deb
+Size: 264268
+SHA256: 37a3a54770c40a8d5244c87711a40fab6c82222082c837ac91dc078cbfdd581c
 
 Package: xtrans
 Architecture: arm
