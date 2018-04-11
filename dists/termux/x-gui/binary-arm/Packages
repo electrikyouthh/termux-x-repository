@@ -22,6 +22,18 @@ Filename: dists/termux/x-gui/binary-arm/desktop-file-utils_0.23-3_arm.deb
 Size: 28688
 SHA256: 143377f90e33b32077dc1bdeeedd7116659a32425745bc74177079b090e03b53
 
+Package: dmenu
+Architecture: arm
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 4.8
+Description: Generic menu for X
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, libxinerama, libxft, freetype
+Filename: dists/termux/x-gui/binary-arm/dmenu_4.8_arm.deb
+Size: 14044
+SHA256: 1715a338a81903eb8c4eca0d3821a5ea18ec8332def01de6eac8c591dda986c7
+
 Package: dosbox
 Architecture: arm
 Installed-Size: 1640
@@ -33,6 +45,18 @@ Depends: libsdl, libsdl-net
 Filename: dists/termux/x-gui/binary-arm/dosbox_0.74-3_arm.deb
 Size: 626740
 SHA256: fb267ab664dfc6eced2d1a78a8b0d431d57e2b10660b1240def24011a52022fa
+
+Package: dwm
+Architecture: arm
+Installed-Size: 56
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 6.1
+Description: A dynamic window manager for X
+Homepage: http://dwm.suckless.org
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama
+Filename: dists/termux/x-gui/binary-arm/dwm_6.1_arm.deb
+Size: 21324
+SHA256: a834efdbd0fcd58d2a06ebd956f5ec4ddbbe379056063e8ef93750e11f0b25c1
 
 Package: feh
 Architecture: arm
@@ -1058,6 +1082,18 @@ Depends: glib, libxml2
 Filename: dists/termux/x-gui/binary-arm/shared-mime-info_1.9-1_arm.deb
 Size: 241688
 SHA256: 03441aab2403cada3f22165b71b0869f44b1e7d67db1eb584e46ed89105e754b
+
+Package: st
+Architecture: arm
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.8.1
+Description: A simple virtual terminal emulator for X.
+Homepage: http://st.suckless.org
+Depends: libutil, libxft, libxext, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-arm/st_0.8.1_arm.deb
+Size: 30876
+SHA256: b8edbc592a6132a35d557bda584572e100532f5c6076cfdf42b2a686d0a85727
 
 Package: startup-notification-dev
 Architecture: arm

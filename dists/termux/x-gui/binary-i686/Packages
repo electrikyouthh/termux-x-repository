@@ -1,3 +1,15 @@
+Package: dmenu
+Architecture: i686
+Installed-Size: 52
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 4.8
+Description: Generic menu for X
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, libxinerama, libxft, freetype
+Filename: dists/termux/x-gui/binary-i686/dmenu_4.8_i686.deb
+Size: 13876
+SHA256: 88cc980895487c9a7775b4201f25d3f03b6a9a9e7ef98137eaadb62b95c97a65
+
 Package: dosbox
 Architecture: i686
 Installed-Size: 1840
@@ -9,6 +21,18 @@ Depends: libsdl, libsdl-net
 Filename: dists/termux/x-gui/binary-i686/dosbox_0.74-3_i686.deb
 Size: 547392
 SHA256: 1ea225e2f574f3d93c66e8768a4f48580f09d18b3327ffb9dde43888ae11621e
+
+Package: dwm
+Architecture: i686
+Installed-Size: 44
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 6.1
+Description: A dynamic window manager for X
+Homepage: http://dwm.suckless.org
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama
+Filename: dists/termux/x-gui/binary-i686/dwm_6.1_i686.deb
+Size: 18324
+SHA256: a2b58763eafa751dc9708d882b4d447cb91e733ab2fda35d2cea4d6fbefce77e
 
 Package: feh
 Architecture: i686
@@ -879,6 +903,18 @@ Depends: glib, libandroid-support, libbz2, libcurl, libgnutls, liblzo, libnettle
 Filename: dists/termux/x-gui/binary-i686/qemu-system_2.11.0-1_i686.deb
 Size: 12111116
 SHA256: 0d2e6b05a725ae3eb370faa8d675e342977e2d3bcbc54d8e78c4b0bb42789bff
+
+Package: st
+Architecture: i686
+Installed-Size: 64
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.8.1
+Description: A simple virtual terminal emulator for X.
+Homepage: http://st.suckless.org
+Depends: libutil, libxft, libxext, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-i686/st_0.8.1_i686.deb
+Size: 25604
+SHA256: 0b7ad40f85837d4e1de26fddc832c3a12f970c56dc98f6c04973d8adc105f19e
 
 Package: startup-notification-dev
 Architecture: i686

@@ -22,6 +22,18 @@ Filename: dists/termux/x-gui/binary-aarch64/desktop-file-utils_0.23-3_aarch64.de
 Size: 30388
 SHA256: e7e15819fed7280b34669917fa8dc4e910092d06e2abc6284d9a7962674a33be
 
+Package: dmenu
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 4.8
+Description: Generic menu for X
+Homepage: https://tools.suckless.org/dmenu/
+Depends: dash, libxinerama, libxft, freetype
+Filename: dists/termux/x-gui/binary-aarch64/dmenu_4.8_aarch64.deb
+Size: 13640
+SHA256: 5d93664c9eaac53752ade951a78bd525bf858d1a8428bc0e54444e879e0844df
+
 Package: dosbox
 Architecture: aarch64
 Installed-Size: 1808
@@ -33,6 +45,18 @@ Depends: libsdl, libsdl-net
 Filename: dists/termux/x-gui/binary-aarch64/dosbox_0.74-3_aarch64.deb
 Size: 480760
 SHA256: 293839d4fbbe3d630be6fd2cbcde0a81f3cd111f5d60ae3830c2a795a2bd9582
+
+Package: dwm
+Architecture: aarch64
+Installed-Size: 60
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 6.1
+Description: A dynamic window manager for X
+Homepage: http://dwm.suckless.org
+Depends: dmenu, st, freetype, libx11, libxft, libxinerama
+Filename: dists/termux/x-gui/binary-aarch64/dwm_6.1_aarch64.deb
+Size: 18104
+SHA256: f962097707b07637062e676737554fafb85a12c7c9287d8babdef01f6be88411
 
 Package: feh
 Architecture: aarch64
@@ -1058,6 +1082,18 @@ Depends: glib, libxml2
 Filename: dists/termux/x-gui/binary-aarch64/shared-mime-info_1.9-1_aarch64.deb
 Size: 238200
 SHA256: 6e39654b0db9d16db65b10e4b866c1973c54ee84fc1e1c74ee6ee8bbc824864a
+
+Package: st
+Architecture: aarch64
+Installed-Size: 76
+Maintainer: Leonid Plyushch <leonid.plyushch@gmail.com> @xeffyr
+Version: 0.8.1
+Description: A simple virtual terminal emulator for X.
+Homepage: http://st.suckless.org
+Depends: libutil, libxft, libxext, xorg-fonts-lite
+Filename: dists/termux/x-gui/binary-aarch64/st_0.8.1_aarch64.deb
+Size: 25404
+SHA256: 9c701eb4ddda923d2b665a1282889cd4c8b287275d6684fe8f64646af2b303b5
 
 Package: startup-notification-dev
 Architecture: aarch64
